@@ -1,4 +1,4 @@
-"""Final attempt: Full CP-SAT with best possible warm start."""
+"""CP-SAT v2: Try different search strategies and encodings."""
 import numpy as np
 import time
 import sys
@@ -97,57 +97,40 @@ def enum_pm1(cvecs, cvals, rng, max_sol=10000):
     return sols
 
 
-def build_greedy_solution(G, seed=1):
-    """Build best greedy solution (depth 15-17 typically)."""
-    rng = np.random.RandomState(seed)
-    col_order = [0, 3, 1, 4, 6, 7, 8, 9, 10, 2, 5] + list(range(11, 29))
-    placed = {0: np.ones(N, dtype=np.int64)}
-    order = [0]
-    for step in range(1, N):
-        ti = col_order[step]
-        cvecs = [placed[order[i]] for i in range(len(order))]
-        cvals = [int(G[order[i], ti]) for i in range(len(order))]
-        sols = enum_pm1(cvecs, cvals, rng, max_sol=1000)
-        if not sols: break
-        placed[ti] = sols[rng.randint(len(sols))]
-        order.append(ti)
-    return placed, order
-
-
 def main():
     G = build_new_gram()
     print("=" * 70)
-    print("FINAL CP-SAT: Full solve with greedy warm start")
+    print("CP-SAT v2: AND-product encoding (no XOR d-vars)")
     print("=" * 70)
     sys.stdout.flush()
 
-    # Build warm start
-    print("Building greedy warm start...")
-    best_placed = None
-    best_depth = 0
-    for seed in range(20):
-        placed, order = build_greedy_solution(G, seed)
+    # Build greedy warm start
+    print("Building warm start...")
+    best_placed = None; best_depth = 0
+    col_order = [0, 3, 1, 4, 6, 7, 8, 9, 10, 2, 5] + list(range(11, 29))
+    for seed in range(50):
+        rng = np.random.RandomState(seed)
+        placed = {0: np.ones(N, dtype=np.int64)}; order = [0]
+        for step in range(1, N):
+            ti = col_order[step]
+            cvecs = [placed[order[i]] for i in range(len(order))]
+            cvals = [int(G[order[i], ti]) for i in range(len(order))]
+            sols = enum_pm1(cvecs, cvals, rng, max_sol=500)
+            if not sols: break
+            placed[ti] = sols[rng.randint(len(sols))]; order.append(ti)
         if len(order) > best_depth:
-            best_depth = len(order)
-            best_placed = dict(placed)
-            print(f"  Seed {seed}: depth {len(order)}")
-    print(f"  Best greedy depth: {best_depth}/{N}")
-    sys.stdout.flush()
+            best_depth = len(order); best_placed = dict(placed)
+    print(f"  Best greedy: {best_depth}/{N}")
 
-    # Build R matrix for warm start (fill unplaced with random)
-    R_hint = np.zeros((N, N), dtype=np.int64)
-    rng = np.random.RandomState(42)
-    for ci in range(N):
-        if ci in best_placed:
-            R_hint[:, ci] = best_placed[ci]
-        else:
-            # Random column with correct column sum (15 ones = (29+1)/2)
-            col = np.ones(N, dtype=np.int64)
-            col[rng.choice(N, 14, replace=False)] = -1
-            R_hint[:, ci] = col
+    # Build model with AND-product encoding (fewer vars than XOR)
+    # For each pair (a,b): sum_k R[k,a]*R[k,b] = G[a,b]
+    # R[k,a] = 2*x[k,a] - 1
+    # (2xa-1)(2xb-1) = 4*xa*xb - 2*xa - 2*xb + 1
+    # sum_k (4*z[k,a,b] - 2*x[k,a] - 2*x[k,b] + 1) = G[a,b]
+    # 4*sum z - 2*sum xa - 2*sum xb + N = G[a,b]
+    # where z[k,a,b] = x[k,a] AND x[k,b]
 
-    # Build CP-SAT model
-    print("\nBuilding CP-SAT model...")
+    print("\nBuilding model...")
     model = cp_model.CpModel()
 
     x = {}
@@ -155,97 +138,91 @@ def main():
         for a in range(N):
             x[k, a] = model.NewBoolVar(f'x_{k}_{a}')
 
-    # Fix col 0 = all +1
+    # Fix col 0
     for k in range(N):
         model.Add(x[k, 0] == 1)
 
-    # Column sum constraints
+    # Column sums
     for a in range(1, N):
         target = (N + int(G[0, a])) // 2
         model.Add(sum(x[k, a] for k in range(N)) == target)
 
-    # Pairwise XOR constraints
+    # Pairwise with AND encoding
     n_pairs = 0
     for a in range(1, N):
         for b in range(a + 1, N):
-            target_ip = int(G[a, b])
-            td = (N - target_ip) // 2
-            d_vars = []
+            target_val = int(G[a, b]) - N  # 4*sum_z - 2*sum_xa - 2*sum_xb = G[a,b]-N
+            z_vars = []
             for k in range(N):
-                d = model.NewBoolVar(f'd_{k}_{a}_{b}')
-                model.AddBoolXOr([x[k, a], x[k, b], d.Not()])
-                d_vars.append(d)
-            model.Add(sum(d_vars) == td)
+                z = model.NewBoolVar(f'z_{k}_{a}_{b}')
+                model.AddBoolAnd([x[k, a], x[k, b]]).OnlyEnforceIf(z)
+                model.AddBoolOr([x[k, a].Not(), x[k, b].Not()]).OnlyEnforceIf(z.Not())
+                z_vars.append(z)
+            model.Add(
+                4 * sum(z_vars)
+                - 2 * sum(x[k, a] for k in range(N))
+                - 2 * sum(x[k, b] for k in range(N))
+                == target_val
+            )
             n_pairs += 1
 
-    # Light symmetry breaking
+    # Symmetry breaking
     generic = [2, 5] + list(range(11, 29))
     for i in range(len(generic) - 1):
-        a, b = generic[i], generic[i+1]
-        model.AddImplication(x[1, b], x[1, a])
+        model.AddImplication(x[1, generic[i+1]], x[1, generic[i]])
     for i in range(7, 10):
         model.AddImplication(x[1, i+1], x[1, i])
 
-    # Warm start from greedy solution
+    # Warm start
+    rng = np.random.RandomState(42)
     for a in range(N):
+        if a in best_placed:
+            col = best_placed[a]
+        else:
+            col = np.ones(N, dtype=np.int64)
+            col[rng.choice(N, 14, replace=False)] = -1
         for k in range(N):
-            val = 1 if R_hint[k, a] == 1 else 0
-            model.AddHint(x[k, a], val)
+            model.AddHint(x[k, a], 1 if col[k] == 1 else 0)
 
-    print(f"  {N*N} x-vars, {N*n_pairs} d-vars = {N*N + N*n_pairs} total")
-    print(f"  {n_pairs} pair constraints")
-    print(f"  Warm start from depth-{best_depth} greedy solution")
+    print(f"  {N*N} x + {N*n_pairs} z = {N*N + N*n_pairs} vars, {n_pairs} pair constraints")
     sys.stdout.flush()
 
-    # Solve
     solver = cp_model.CpSolver()
-    solver.parameters.max_time_in_seconds = 82800
+    solver.parameters.max_time_in_seconds = 3500
     solver.parameters.num_workers = 8
     solver.parameters.log_search_progress = True
-    solver.parameters.cp_model_presolve = True
+    # Try automatic search strategy
+    solver.parameters.search_branching = cp_model.AUTOMATIC_SEARCH
 
-    class Callback(cp_model.CpSolverSolutionCallback):
+    class Cb(cp_model.CpSolverSolutionCallback):
         def __init__(self):
             super().__init__()
             self.solution = None
-            self.count = 0
         def on_solution_callback(self):
-            self.count += 1
             R = np.zeros((N, N), dtype=np.int64)
             for k in range(N):
                 for a in range(N):
                     R[k, a] = 2 * self.Value(x[k, a]) - 1
             if verify_decomposition(R, G):
                 self.solution = R
-                print(f"\n*** VALID SOLUTION #{self.count}! ***")
+                print(f"\n*** BREAKTHROUGH! ***")
                 np.save("/home/xiwang/project/AutoMath/tasks/matrix_det/breakthrough_matrix.npy", R)
                 det_val = abs(np.linalg.det(R.astype(float)))
-                target_max = 1270698346568170340352
-                print(f"|det(R)| = {det_val:.6e}")
-                print(f"Score = {det_val / target_max:.6f}")
+                print(f"Score = {det_val / 1270698346568170340352:.6f}")
             sys.stdout.flush()
             self.StopSearch()
 
-    cb = Callback()
-    print(f"\nStarting solve (3500s, 8 workers)...")
+    cb = Cb()
+    print(f"\nSolving (3500s, 8 workers, AND encoding)...")
     sys.stdout.flush()
 
     status = solver.Solve(model, cb)
-    status_name = {
-        cp_model.OPTIMAL: "OPTIMAL",
-        cp_model.FEASIBLE: "FEASIBLE",
-        cp_model.INFEASIBLE: "INFEASIBLE",
-        cp_model.UNKNOWN: "UNKNOWN",
-    }.get(status, str(status))
-
-    print(f"\nStatus: {status_name}")
-    print(f"Wall time: {solver.WallTime():.1f}s")
-    if cb.solution is not None:
-        print("SOLUTION FOUND!")
-    elif status_name == "INFEASIBLE":
-        print("PROVED INFEASIBLE - this Gram matrix cannot be decomposed as R^T R with +/-1 entries!")
-    else:
-        print("No solution found within time limit.")
+    sn = {cp_model.OPTIMAL:"OPTIMAL", cp_model.FEASIBLE:"FEASIBLE",
+          cp_model.INFEASIBLE:"INFEASIBLE", cp_model.UNKNOWN:"UNKNOWN"}.get(status, str(status))
+    print(f"\nStatus: {sn}, Wall: {solver.WallTime():.1f}s")
+    if sn == "INFEASIBLE":
+        print("PROVED INFEASIBLE!")
+    sys.stdout.flush()
 
 if __name__ == "__main__":
     main()
