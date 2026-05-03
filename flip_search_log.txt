@@ -1,0 +1,51 @@
+======================================================================
+EXHAUSTIVE FLIP SEARCH on Orrick-Solomon matrix (c=320)
+======================================================================
+Base |det| = 1188957517256767569920
+Base score = 0.93567251
+
+======================================================================
+PHASE 1: Exhaustive 2-flip search
+======================================================================
+Base |det| = 1188957517256767569920, score = 0.93567251
+  2-flip: 11.8% done, 79050 pairs, best ratio = 1.0000000000, elapsed = 0.1s
+  2-flip: 23.7% done, 148100 pairs, best ratio = 1.0000000000, elapsed = 0.2s
+  2-flip: 35.6% done, 207150 pairs, best ratio = 1.0000000000, elapsed = 0.3s
+  2-flip: 47.4% done, 256200 pairs, best ratio = 1.0000000000, elapsed = 0.3s
+  2-flip: 59.3% done, 295250 pairs, best ratio = 1.0000000000, elapsed = 0.4s
+  2-flip: 71.2% done, 324300 pairs, best ratio = 1.0000000000, elapsed = 0.4s
+  2-flip: 83.1% done, 343350 pairs, best ratio = 1.0000000000, elapsed = 0.5s
+  2-flip: 95.0% done, 352400 pairs, best ratio = 1.0000000000, elapsed = 0.5s
+
+  2-flip search complete: 353220 pairs in 0.5s
+  Best det ratio: 1.0000000000
+  No 2-flip improvement exists (matrix is 2-flip local maximum)
+
+======================================================================
+PHASE 2: Vectorized 3-flip search
+======================================================================
+
+Vectorized 3-flip search: base |det| = 1188957517256767569920
+  3-flip vectorized: 5.8% (e1=49), 16.6M triples, best ratio = 1.0000000000, 1.7s
+  3-flip vectorized: 11.8% (e1=99), 31.2M triples, best ratio = 1.0000000000, 3.2s
+  3-flip vectorized: 17.7% (e1=149), 44.0M triples, best ratio = 1.0000000000, 4.7s
+  3-flip vectorized: 23.7% (e1=199), 55.1M triples, best ratio = 1.0000000000, 6.0s
+  3-flip vectorized: 29.6% (e1=249), 64.6M triples, best ratio = 1.0000000000, 7.1s
+  3-flip vectorized: 35.6% (e1=299), 72.5M triples, best ratio = 1.0000000000, 8.2s
+  3-flip vectorized: 41.5% (e1=349), 79.2M triples, best ratio = 1.0000000000, 9.1s
+  3-flip vectorized: 47.4% (e1=399), 84.6M triples, best ratio = 1.0000000000, 9.9s
+  3-flip vectorized: 53.4% (e1=449), 88.9M triples, best ratio = 1.0000000000, 10.6s
+  3-flip vectorized: 59.3% (e1=499), 92.2M triples, best ratio = 1.0000000000, 11.2s
+  3-flip vectorized: 65.3% (e1=549), 94.7M triples, best ratio = 1.0000000000, 11.8s
+  3-flip vectorized: 71.2% (e1=599), 96.5M triples, best ratio = 1.0000000000, 12.2s
+  3-flip vectorized: 77.2% (e1=649), 97.6M triples, best ratio = 1.0000000000, 12.5s
+  3-flip vectorized: 83.1% (e1=699), 98.3M triples, best ratio = 1.0000000000, 12.7s
+  3-flip vectorized: 89.1% (e1=749), 98.7M triples, best ratio = 1.0000000000, 12.9s
+  3-flip vectorized: 95.0% (e1=799), 98.8M triples, best ratio = 1.0000000000, 13.0s
+
+  3-flip search: 98.8M triples in 13.0s
+  Best ratio: 1.0000000000
+  No 3-flip improvement found
+
+No k-flip improvement found for k <= 3.
+The Orrick-Solomon matrix is a 3-flip local maximum.

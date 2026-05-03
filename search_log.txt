@@ -1,0 +1,712 @@
+======================================================================
+MASSIVE SEARCH: 29x29 maxdet matrix
+Target: score > 0.94 (det > 1.1945e+21)
+Current best: 0.9357 (det ~ 1.189e21)
+Time limit: 3.0 hours
+======================================================================
+
+======================================================================
+PHASE 1: Generating Gram decompositions
+======================================================================
+
+--- Progress at 60s (1.0m) ---
+  Best score: 0.00000000
+  Decompositions found: 0
+  Perturbations tried: 0
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 0
+
+--- Progress at 120s (2.0m) ---
+  Best score: 0.00000000
+  Decompositions found: 0
+  Perturbations tried: 0
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 0
+  NEW BEST: 0.93567251 (source: gram_decomp_seed6)
+  Decomposition #1 (seed=6): score=0.93567251
+
+--- Progress at 181s (3.0m) ---
+  Best score: 0.93567251
+  Decompositions found: 1
+  Perturbations tried: 80
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 82
+
+--- Progress at 241s (4.0m) ---
+  Best score: 0.93567251
+  Decompositions found: 1
+  Perturbations tried: 80
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 82
+
+--- Progress at 301s (5.0m) ---
+  Best score: 0.93567251
+  Decompositions found: 1
+  Perturbations tried: 160
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 162
+  Decomposition #2 (seed=12): score=0.93567251
+
+--- Progress at 362s (6.0m) ---
+  Best score: 0.93567251
+  Decompositions found: 2
+  Perturbations tried: 240
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 244
+  Decomposition #3 (seed=16): score=0.93567251
+
+--- Progress at 449s (7.5m) ---
+  Best score: 0.93567251
+  Decompositions found: 3
+  Perturbations tried: 320
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 326
+
+--- Progress at 509s (8.5m) ---
+  Best score: 0.93567251
+  Decompositions found: 3
+  Perturbations tried: 400
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 406
+
+--- Progress at 569s (9.5m) ---
+  Best score: 0.93567251
+  Decompositions found: 3
+  Perturbations tried: 400
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 406
+
+--- Progress at 629s (10.5m) ---
+  Best score: 0.93567251
+  Decompositions found: 3
+  Perturbations tried: 480
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 486
+  Decomposition #4 (seed=24): score=0.93567251
+  Decomposition #5 (seed=25): score=0.93567251
+
+--- Progress at 698s (11.6m) ---
+  Best score: 0.93567251
+  Decompositions found: 5
+  Perturbations tried: 560
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 570
+
+--- Progress at 758s (12.6m) ---
+  Best score: 0.93567251
+  Decompositions found: 5
+  Perturbations tried: 640
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 650
+
+--- Progress at 818s (13.6m) ---
+  Best score: 0.93567251
+  Decompositions found: 5
+  Perturbations tried: 720
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 730
+
+--- Progress at 878s (14.6m) ---
+  Best score: 0.93567251
+  Decompositions found: 5
+  Perturbations tried: 720
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 730
+  Decomposition #6 (seed=34): score=0.93567251
+
+--- Progress at 942s (15.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 6
+  Perturbations tried: 800
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 812
+  Decomposition #7 (seed=37): score=0.93567251
+
+--- Progress at 1002s (16.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 7
+  Perturbations tried: 880
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 894
+
+--- Progress at 1062s (17.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 7
+  Perturbations tried: 960
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 974
+
+--- Progress at 1123s (18.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 7
+  Perturbations tried: 1040
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1054
+
+--- Progress at 1183s (19.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 7
+  Perturbations tried: 1040
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1054
+  Decomposition #8 (seed=46): score=0.93567251
+
+--- Progress at 1243s (20.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 8
+  Perturbations tried: 1120
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1136
+
+--- Progress at 1303s (21.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 8
+  Perturbations tried: 1200
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1216
+
+--- Progress at 1363s (22.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 8
+  Perturbations tried: 1280
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1296
+
+--- Progress at 1423s (23.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 8
+  Perturbations tried: 1280
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1296
+  Decomposition #9 (seed=56): score=0.93567251
+  Decomposition #10 (seed=57): score=0.93567251
+
+--- Progress at 1487s (24.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 10
+  Perturbations tried: 1440
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1460
+
+--- Progress at 1547s (25.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 10
+  Perturbations tried: 1440
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1460
+
+--- Progress at 1607s (26.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 10
+  Perturbations tried: 1520
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1540
+  Decomposition #11 (seed=64): score=0.93567251
+
+--- Progress at 1669s (27.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 11
+  Perturbations tried: 1600
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1622
+  Decomposition #12 (seed=67): score=0.93567251
+  Decomposition #13 (seed=68): score=0.93567251
+
+--- Progress at 1730s (28.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 1680
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1706
+
+--- Progress at 1790s (29.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 1760
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1786
+
+Phase 1 complete: 13 decompositions, 13 good ones
+
+======================================================================
+PHASE 2: Aggressive perturbation + optimization
+======================================================================
+
+--- Progress at 1850s (30.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 25574
+  Crossovers tried: 14286
+  2-flip searches: 0
+  Good matrices (>0.92): 27538
+
+--- Progress at 1910s (31.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 52551
+  Crossovers tried: 30655
+  2-flip searches: 0
+  Good matrices (>0.92): 56858
+
+--- Progress at 1970s (32.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 74827
+  Crossovers tried: 44187
+  2-flip searches: 0
+  Good matrices (>0.92): 80966
+
+--- Progress at 2030s (33.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 102218
+  Crossovers tried: 60550
+  2-flip searches: 0
+  Good matrices (>0.92): 110585
+
+--- Progress at 2090s (34.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 129249
+  Crossovers tried: 76887
+  2-flip searches: 0
+  Good matrices (>0.92): 139764
+
+--- Progress at 2150s (35.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 156234
+  Crossovers tried: 93291
+  2-flip searches: 0
+  Good matrices (>0.92): 168907
+
+--- Progress at 2210s (36.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 183693
+  Crossovers tried: 109571
+  2-flip searches: 0
+  Good matrices (>0.92): 198525
+
+--- Progress at 2270s (37.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 210898
+  Crossovers tried: 126150
+  2-flip searches: 0
+  Good matrices (>0.92): 227974
+
+--- Progress at 2330s (38.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 232969
+  Crossovers tried: 139559
+  2-flip searches: 0
+  Good matrices (>0.92): 251838
+
+--- Progress at 2390s (39.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 260578
+  Crossovers tried: 156097
+  2-flip searches: 0
+  Good matrices (>0.92): 281621
+
+--- Progress at 2450s (40.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 287061
+  Crossovers tried: 172118
+  2-flip searches: 0
+  Good matrices (>0.92): 310210
+
+--- Progress at 2510s (41.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 314510
+  Crossovers tried: 188713
+  2-flip searches: 0
+  Good matrices (>0.92): 339843
+
+--- Progress at 2570s (42.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 341938
+  Crossovers tried: 205289
+  2-flip searches: 0
+  Good matrices (>0.92): 369548
+
+--- Progress at 2630s (43.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 358928
+  Crossovers tried: 215374
+  2-flip searches: 0
+  Good matrices (>0.92): 387857
+
+--- Progress at 2690s (44.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 385788
+  Crossovers tried: 232048
+  2-flip searches: 0
+  Good matrices (>0.92): 417043
+
+--- Progress at 2750s (45.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 413028
+  Crossovers tried: 248623
+  2-flip searches: 0
+  Good matrices (>0.92): 446487
+
+--- Progress at 2810s (46.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 440330
+  Crossovers tried: 265163
+  2-flip searches: 0
+  Good matrices (>0.92): 476064
+
+--- Progress at 2870s (47.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 467694
+  Crossovers tried: 281549
+  2-flip searches: 0
+  Good matrices (>0.92): 505556
+Traceback (most recent call last):
+  File "/data/xiwang_home/project/AutoMath/tasks/matrix_det/massive_search.py", line 959, in <module>
+    main()
+    ~~~~^^
+  File "/data/xiwang_home/project/AutoMath/tasks/matrix_det/massive_search.py", line 812, in main
+    Bf, _ = row_replace_climb(Bf, time.time() + 0.2)
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xiwang_home/project/AutoMath/tasks/matrix_det/massive_search.py", line 290, in row_replace_climb
+    Ai = np.linalg.inv(A); s, ld = np.linalg.slogdet(A)
+  File "/home/xiwang/miniforge3/lib/python3.13/site-packages/numpy/linalg/_linalg.py", line 648, in inv
+    ainv = _umath_linalg.inv(a, signature=signature)
+  File "/home/xiwang/miniforge3/lib/python3.13/site-packages/numpy/linalg/_linalg.py", line 145, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix
+======================================================================
+MASSIVE SEARCH: 29x29 maxdet matrix
+Target: score > 0.94 (det > 1.1945e+21)
+Current best: 0.9357 (det ~ 1.189e21)
+Time limit: 3.0 hours
+======================================================================
+
+======================================================================
+PHASE 1: Generating Gram decompositions
+======================================================================
+
+--- Progress at 60s (1.0m) ---
+  Best score: 0.00000000
+  Decompositions found: 0
+  Perturbations tried: 0
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 0
+
+--- Progress at 120s (2.0m) ---
+  Best score: 0.00000000
+  Decompositions found: 0
+  Perturbations tried: 0
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 0
+  NEW BEST: 0.93567251 (source: gram_decomp_seed6)
+  Decomposition #1 (seed=6): score=0.93567251
+
+--- Progress at 181s (3.0m) ---
+  Best score: 0.93567251
+  Decompositions found: 1
+  Perturbations tried: 80
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 82
+
+--- Progress at 241s (4.0m) ---
+  Best score: 0.93567251
+  Decompositions found: 1
+  Perturbations tried: 80
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 82
+
+--- Progress at 301s (5.0m) ---
+  Best score: 0.93567251
+  Decompositions found: 1
+  Perturbations tried: 160
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 162
+  Decomposition #2 (seed=12): score=0.93567251
+
+--- Progress at 362s (6.0m) ---
+  Best score: 0.93567251
+  Decompositions found: 2
+  Perturbations tried: 240
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 244
+  Decomposition #3 (seed=16): score=0.93567251
+
+--- Progress at 449s (7.5m) ---
+  Best score: 0.93567251
+  Decompositions found: 3
+  Perturbations tried: 320
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 326
+
+--- Progress at 509s (8.5m) ---
+  Best score: 0.93567251
+  Decompositions found: 3
+  Perturbations tried: 400
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 406
+
+--- Progress at 569s (9.5m) ---
+  Best score: 0.93567251
+  Decompositions found: 3
+  Perturbations tried: 400
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 406
+
+--- Progress at 629s (10.5m) ---
+  Best score: 0.93567251
+  Decompositions found: 3
+  Perturbations tried: 480
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 486
+  Decomposition #4 (seed=24): score=0.93567251
+  Decomposition #5 (seed=25): score=0.93567251
+
+--- Progress at 699s (11.6m) ---
+  Best score: 0.93567251
+  Decompositions found: 5
+  Perturbations tried: 560
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 570
+
+--- Progress at 759s (12.6m) ---
+  Best score: 0.93567251
+  Decompositions found: 5
+  Perturbations tried: 640
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 650
+
+--- Progress at 819s (13.6m) ---
+  Best score: 0.93567251
+  Decompositions found: 5
+  Perturbations tried: 720
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 730
+
+--- Progress at 879s (14.6m) ---
+  Best score: 0.93567251
+  Decompositions found: 5
+  Perturbations tried: 720
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 730
+  Decomposition #6 (seed=34): score=0.93567251
+
+--- Progress at 943s (15.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 6
+  Perturbations tried: 800
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 812
+  Decomposition #7 (seed=37): score=0.93567251
+
+--- Progress at 1003s (16.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 7
+  Perturbations tried: 880
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 894
+
+--- Progress at 1063s (17.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 7
+  Perturbations tried: 960
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 974
+
+--- Progress at 1124s (18.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 7
+  Perturbations tried: 1040
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1054
+
+--- Progress at 1184s (19.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 7
+  Perturbations tried: 1040
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1054
+  Decomposition #8 (seed=46): score=0.93567251
+
+--- Progress at 1244s (20.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 8
+  Perturbations tried: 1120
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1136
+
+--- Progress at 1304s (21.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 8
+  Perturbations tried: 1200
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1216
+
+--- Progress at 1364s (22.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 8
+  Perturbations tried: 1280
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1296
+
+--- Progress at 1424s (23.7m) ---
+  Best score: 0.93567251
+  Decompositions found: 8
+  Perturbations tried: 1280
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1296
+  Decomposition #9 (seed=56): score=0.93567251
+  Decomposition #10 (seed=57): score=0.93567251
+
+--- Progress at 1488s (24.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 10
+  Perturbations tried: 1440
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1460
+
+--- Progress at 1548s (25.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 10
+  Perturbations tried: 1440
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1460
+
+--- Progress at 1608s (26.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 10
+  Perturbations tried: 1520
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1540
+  Decomposition #11 (seed=64): score=0.93567251
+
+--- Progress at 1670s (27.8m) ---
+  Best score: 0.93567251
+  Decompositions found: 11
+  Perturbations tried: 1600
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1622
+  Decomposition #12 (seed=67): score=0.93567251
+  Decomposition #13 (seed=68): score=0.93567251
+
+--- Progress at 1733s (28.9m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 1680
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1706
+
+--- Progress at 1793s (29.9m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 1760
+  Crossovers tried: 0
+  2-flip searches: 0
+  Good matrices (>0.92): 1786
+
+Phase 1 complete: 13 decompositions, 13 good ones
+
+======================================================================
+PHASE 2: Aggressive perturbation + optimization
+======================================================================
+
+--- Progress at 1853s (30.9m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 25363
+  Crossovers tried: 14235
+  2-flip searches: 0
+  Good matrices (>0.92): 27358
+
+--- Progress at 1913s (31.9m) ---
+  Best score: 0.93567251
+  Decompositions found: 13
+  Perturbations tried: 51924
+  Crossovers tried: 30289
+  2-flip searches: 0
+  Good matrices (>0.92): 56104
+Traceback (most recent call last):
+  File "/data/xiwang_home/project/AutoMath/tasks/matrix_det/massive_search.py", line 961, in <module>
+    main()
+    ~~~~^^
+  File "/data/xiwang_home/project/AutoMath/tasks/matrix_det/massive_search.py", line 814, in main
+    Bf, _ = row_replace_climb(Bf, time.time() + 0.2)
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xiwang_home/project/AutoMath/tasks/matrix_det/massive_search.py", line 290, in row_replace_climb
+    Ai = np.linalg.inv(A); s, ld = np.linalg.slogdet(A)
+  File "/home/xiwang/miniforge3/lib/python3.13/site-packages/numpy/linalg/_linalg.py", line 648, in inv
+    ainv = _umath_linalg.inv(a, signature=signature)
+  File "/home/xiwang/miniforge3/lib/python3.13/site-packages/numpy/linalg/_linalg.py", line 145, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix

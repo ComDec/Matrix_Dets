@@ -1,0 +1,113 @@
+Solomon Gram k-entry Modification Search Results
+=================================================
+
+GOAL: Find a modified Solomon Gram G' with:
+  1. det(G') > det(G_solomon) = 2^68 * 5^2 * 7^24
+  2. det(G') is a PERFECT SQUARE (necessary for decomposition to {-1,+1} matrix)
+  3. G' is positive definite
+  4. Diagonal = 29, off-diagonal in {-7, -3, 1, 5, 9} (= 1 mod 4)
+
+CONTEXT:
+  Solomon det(G) = (2^34 * 5 * 7^12)^2 = 1413619977841376753822343762242622088806400
+  Target |det(H)| > 0.94 * 1270698346568170340352 = 1194456445774079983616
+  Solomon |det(H)| = 1188957517256767569920 (99.5% of threshold)
+
+============================================================
+SEARCH 1: 2-entry modifications (EXHAUSTIVE)
+============================================================
+  Total checked: 1,315,440 / 1,315,440 (100%)
+  Higher det: 9,933 | Perfect squares: 0
+  Time: 26.3s
+
+============================================================
+SEARCH 2: 3-entry modifications (all with >=1 special entry, EXHAUSTIVE)
+============================================================
+  Total checked: 66,237,172 (66.2M)
+  Higher det: 520,264 | Perfect squares: 0
+  Time: 735s
+
+============================================================
+SEARCH 3: 3-entry normal-only modifications
+============================================================
+  Result: 0 candidates with higher det (proven: single normal entry mods always DECREASE det)
+
+============================================================
+*** BREAKTHROUGH: Multi-entry modification on five-entries ***
+============================================================
+  Searched ALL 5^9 = ~2M configurations of the 9 five-entries.
+  Changed the search from "k entries" to "all 9 five-entries to any allowed value."
+
+  FOUND 18 PERFECT SQUARE CONFIGURATIONS with det > Solomon:
+    Pattern: Change 7 of 9 five-entries from 5 -> 1, and 2 from 5 -> 9
+    The 2 nines must be in DIFFERENT ROWS and DIFFERENT COLUMNS of the 3x3 block
+    (i.e., the 2 nine-positions form a "non-attacking rook" pair in the 3x3 grid)
+
+    det(G') = 1483891056240030571747674217619169843609600
+    sqrt(det) = |det(H)| = 1218150670582268559360
+    |det(H)| / threshold = 1.0198 (ABOVE threshold!)
+    Ratio to target = 0.9586
+
+    Factorization: |det(H)| = 2^28 * 3^3 * 5 * 7^11 * 17
+
+  Example Gram G':
+    Diagonal: 29
+    G'[0,3] = G'[3,0] = 9     (was 5)
+    G'[1,4] = G'[4,1] = 9     (was 5)
+    G'[i,j] = 1 for all other (i,j) with i in {0,1,2}, j in {3,4,5}  (was 5)
+    G'[6,j] = -3 for j in {7,8,9,10}  (unchanged)
+    All other off-diagonal: 1  (unchanged)
+
+    Eigenvalues: 22 at 28, 2 at 36, 2 at 20, plus 57.70, 34.22, 21.07
+
+============================================================
+DECOMPOSITION ATTEMPTS
+============================================================
+  Tried to decompose G' = H^T H for {-1,+1} matrix H:
+
+  1. Column backtracking from scratch: reached depth 17/29, then stuck (200s)
+  2. Fix Solomon seed cols 6-28, backtrack on cols 0-5:
+     EXHAUSTIVELY searched all 18 Gram configs -> NONE decomposable
+     (The constraint system has 6 candidates for first col, narrowing to 0 by step 3-4)
+  3. Gram targeting (row replacement): error decreases to ~2880 but never reaches 0
+
+  CONCLUSION: These perfect-square Gram matrices are NOT decomposable using the
+  Solomon seed's column structure. Full decomposition from scratch would require
+  a much deeper column backtracking search (depth 29 from scratch), which the
+  backtracker reaches only to depth 17 in 200s.
+
+============================================================
+THEORETICAL ANALYSIS
+============================================================
+  Why modifications don't give perfect squares (2-3 entry case):
+  - Solomon Gram has 24 eigenvalues at exactly 28 (high multiplicity)
+  - Small modifications preserve the 24-fold eigenvalue
+  - The 5 special eigenvalues change, and their product generically
+    introduces odd prime factors, destroying the perfect-square property
+
+  Why the multi-entry modification works:
+  - Changing 7 of 9 five-entries restructures the eigenvalue pattern
+  - The 3x3 block of five-entries becomes sparse (only 2 nines, rest ones)
+  - This creates 2 eigenvalues at 36 and 2 at 20 (was 3 distinct + 2 at 28)
+  - The new eigenvalue product happens to be a perfect square
+
+  Why decomposition is hard:
+  - The Solomon seed has columns 0-5 with specific agreement patterns
+    (17 agreements between rows in {0,1,2} and rows in {3,4,5})
+  - The new Gram needs pairs (i,j) where i in {0,1,2}, j in {3,4,5} to have
+    EITHER 19 agreements (for the two 9-entries) or 15 agreements (for the rest)
+  - This is incompatible with the Solomon seed's columns 6-28
+
+============================================================
+OVERALL CONCLUSION
+============================================================
+  Found Gram matrices with perfect-square det ABOVE the threshold, but could not
+  decompose them into {-1,+1} matrices within the available computation time.
+
+  The candidate Gram has |det(H)| = 1218150670582268559360, which is 1.98% above
+  the threshold of 1194456445774079983616. If decomposable, this would give
+  score = 0.9586 > 0.94.
+
+  The decomposition problem requires further investigation, possibly:
+  - Longer backtracking searches from scratch
+  - Different Gram matrix structures beyond the Solomon family
+  - Algebraic construction methods exploiting the eigenvalue structure

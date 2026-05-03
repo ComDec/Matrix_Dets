@@ -1,0 +1,1468 @@
+======================================================================
+HIGHER GRAM DECOMPOSITION SEARCH
+======================================================================
+OS Gram det = 1413619977841376753822343762242622088806400
+OS score = 0.93567251
+
+  [203] Higher Gram found! det = 1442741307244790411448108075573726440062976
+    Gram score = 0.94526106 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,4]: 5 -> 3
+    Could not decompose (time limit 58s)
+
+  [598] Higher Gram found! det = 1434565589763156482634380837755588637097984
+    Gram score = 0.94257896 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,5]: 5 -> 1
+      G[27,28]: 1 -> -3
+    Could not decompose (time limit 41s)
+
+  Progress: 100s, 598 Grams tried, 3 higher, 2 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [632] Higher Gram found! det = 1417347186899189783883231836898273144078336
+    Gram score = 0.93690522 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,3]: 5 -> -1
+      G[27,28]: 1 -> 5
+    Could not decompose (time limit 20s)
+
+  [741] Higher Gram found! det = 1426365449253597683209669371113864689614848
+    Gram score = 0.93988115 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,3]: 5 -> -3
+      G[9,10]: 1 -> 3
+    Could not decompose (time limit 25s)
+
+  [1289] Higher Gram found! det = 1418856536062067456493600120563094748397568
+    Gram score = 0.93740395 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,2]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  Progress: 166s, 1289 Grams tried, 7 higher, 5 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [1317] Higher Gram found! det = 1439257022220176606820955413870349406699520
+    Gram score = 0.94411895 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,5]: 5 -> 3
+      G[19,20]: 1 -> -1
+    Could not decompose (time limit 51s)
+
+  [1418] Higher Gram found! det = 1433111105090471523010338081132580907778048
+    Gram score = 0.94210100 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,5]: 5 -> 1
+      G[7,23]: 1 -> -3
+      G[21,23]: 1 -> -1
+    Could not decompose (time limit 39s)
+
+  Progress: 255s, 1418 Grams tried, 9 higher, 7 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [1918] Higher Gram found! det = 1432483308256295281035834666225079890739200
+    Gram score = 0.94189463 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,5]: 5 -> 1
+      G[9,24]: 1 -> -3
+      G[16,21]: 1 -> -1
+    Could not decompose (time limit 37s)
+
+  [2070] Higher Gram found! det = 1449970511959938587711028565581249694924800
+    Gram score = 0.94762633 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,4]: 5 -> 1
+      G[3,5]: 1 -> 3
+      G[24,25]: 1 -> 3
+    Could not decompose (time limit 72s)
+
+  Progress: 365s, 2070 Grams tried, 11 higher, 9 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [2171] Higher Gram found! det = 1423959696914531469024088991876087650713600
+    Gram score = 0.93908820 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,4]: 5 -> -3
+      G[25,26]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  [2534] Higher Gram found! det = 1442741307244790411448108075573726440062976
+    Gram score = 0.94526106 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,5]: 5 -> 3
+    Could not decompose (time limit 58s)
+
+  Progress: 444s, 2534 Grams tried, 13 higher, 11 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [2640] Higher Gram found! det = 1450507454960971987109495708655395425746944
+    Gram score = 0.94780178 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,5]: 5 -> -1
+      G[7,16]: 1 -> -1
+    Could not decompose (time limit 73s)
+
+  Progress: 517s, 2640 Grams tried, 14 higher, 12 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [2679] Higher Gram found! det = 1453232454553236120065541995578986078404608
+    Gram score = 0.94869165 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,4]: 5 -> -1
+    Could not decompose (time limit 78s)
+
+  Progress: 595s, 2679 Grams tried, 15 higher, 13 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [2684] Higher Gram found! det = 1455945466148743533529174153352514436595712
+    Gram score = 0.94957679 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,3]: 5 -> 1
+    Could not decompose (time limit 83s)
+
+  Progress: 678s, 2684 Grams tried, 16 higher, 14 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [2796] Higher Gram found! det = 1444149829305449847991882943263593650454528
+    Gram score = 0.94572237 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,3]: 5 -> 1
+      G[7,11]: 1 -> 3
+    Could not decompose (time limit 60s)
+
+  Progress: 739s, 2796 Grams tried, 17 higher, 15 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [2822] Higher Gram found! det = 1439257022220176606820955413870349406699520
+    Gram score = 0.94411895 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,4]: 5 -> 3
+      G[27,28]: 1 -> -1
+    Could not decompose (time limit 51s)
+
+  [2874] Higher Gram found! det = 1453232454553236120065541995578986078404608
+    Gram score = 0.94869165 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,4]: 5 -> -1
+    Could not decompose (time limit 78s)
+
+  Progress: 868s, 2874 Grams tried, 19 higher, 17 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [2878] Higher Gram found! det = 1431117307179521858336559541674432559841280
+    Gram score = 0.94144543 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,4]: 5 -> -3
+      G[15,24]: 1 -> -1
+    Could not decompose (time limit 35s)
+
+  [2899] Higher Gram found! det = 1434602272458268171057211602253141365489664
+    Gram score = 0.94259101 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,3]: 5 -> -3
+    Could not decompose (time limit 42s)
+
+  Progress: 944s, 2899 Grams tried, 21 higher, 19 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [3114] Higher Gram found! det = 1435770735384400885830891354189883401830400
+    Gram score = 0.94297479 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[0,5]: 5 -> 3
+      G[18,20]: 1 -> -1
+      G[26,28]: 1 -> -1
+    Could not decompose (time limit 44s)
+
+  [3289] Higher Gram found! det = 1448828063107407695492699769092004359700480
+    Gram score = 0.94725294 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,5]: 5 -> -1
+      G[2,22]: 1 -> -1
+    Could not decompose (time limit 69s)
+
+  Progress: 1058s, 3289 Grams tried, 23 higher, 21 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [3330] Higher Gram found! det = 1439925265144695088559799474201499061452800
+    Gram score = 0.94433810 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,4]: 5 -> 1
+      G[2,11]: 1 -> -1
+      G[14,22]: 1 -> 3
+    Could not decompose (time limit 52s)
+
+  [3515] Higher Gram found! det = 1417347186899189783883231836898273144078336
+    Gram score = 0.93690522 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,4]: 5 -> -1
+      G[11,15]: 1 -> 5
+    Could not decompose (time limit 20s)
+
+  Progress: 1130s, 3515 Grams tried, 25 higher, 23 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [3522] Higher Gram found! det = 1432020627530457704873086972139760569548800
+    Gram score = 0.94174250 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,3]: 5 -> 3
+      G[14,28]: 1 -> 3
+    Could not decompose (time limit 36s)
+
+  [3702] Higher Gram found! det = 1434499007539909367229767760275066113228800
+    Gram score = 0.94255708 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[2,4]: 5 -> -1
+      G[9,28]: 1 -> 3
+      G[11,23]: 1 -> -1
+      G[13,26]: 1 -> -1
+    Could not decompose (time limit 41s)
+
+  Progress: 1208s, 3702 Grams tried, 27 higher, 25 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [3806] Higher Gram found! det = 1437861845503704347799383793586234416168960
+    Gram score = 0.94366124 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[1,3]: 5 -> 1
+      G[19,25]: 1 -> -1
+      G[23,27]: 1 -> 3
+      G[27,28]: 1 -> -1
+    Could not decompose (time limit 48s)
+
+  [3841] Higher Gram found! det = 1435270655024203872915381665516524622839808
+    Gram score = 0.94281056 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[0,12]: 1 -> 3
+      G[1,5]: 5 -> 1
+      G[1,15]: 1 -> 3
+    Could not decompose (time limit 43s)
+
+  Progress: 1299s, 3841 Grams tried, 29 higher, 27 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [4086] Higher Gram found! det = 1431417040518214976789382629958692433297408
+    Gram score = 0.94154401 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[2,5]: 5 -> 1
+      G[6,24]: 1 -> 3
+      G[21,25]: 1 -> 3
+    Could not decompose (time limit 35s)
+
+  [4119] Higher Gram found! det = 1432020627530457704873086972139760569548800
+    Gram score = 0.94174250 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,5]: 5 -> 3
+      G[21,24]: 1 -> 3
+    Could not decompose (time limit 36s)
+
+  Progress: 1371s, 4119 Grams tried, 31 higher, 29 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [4213] Higher Gram found! det = 1431952861929007108598477282909206094020608
+    Gram score = 0.94172022 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,7]: -3 -> 1
+    Could not decompose (time limit 36s)
+
+  [4279] Higher Gram found! det = 1446244705437861008201231530287421194240000
+    Gram score = 0.94640805 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[1,4]: 5 -> 1
+      G[2,3]: 5 -> -1
+      G[21,28]: 1 -> 5
+      G[25,27]: 1 -> 3
+    Could not decompose (time limit 64s)
+
+  Progress: 1472s, 4279 Grams tried, 33 higher, 31 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [4301] Higher Gram found! det = 1419482826960254115558441293670449927946240
+    Gram score = 0.93761081 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[6,9]: -3 -> -1
+      G[16,24]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  [4312] Higher Gram found! det = 1455945466148743533529174153352514436595712
+    Gram score = 0.94957679 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,5]: 5 -> 1
+    Could not decompose (time limit 83s)
+
+  Progress: 1575s, 4312 Grams tried, 35 higher, 33 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [4417] Higher Gram found! det = 1442741307244790411448108075573726440062976
+    Gram score = 0.94526106 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[2,5]: 5 -> 3
+    Could not decompose (time limit 58s)
+
+  [4530] Higher Gram found! det = 1446978771490081851982839152000208249815040
+    Gram score = 0.94664820 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[0,5]: 5 -> -1
+      G[10,28]: 1 -> -1
+      G[12,16]: 1 -> -1
+    Could not decompose (time limit 66s)
+
+  Progress: 1699s, 4530 Grams tried, 38 higher, 35 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [4685] Higher Gram found! det = 1430130617426320958876753167903190213984256
+    Gram score = 0.94112083 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,9]: -3 -> -1
+    Could not decompose (time limit 33s)
+
+  [5006] Higher Gram found! det = 1433291103280623014823055935891262054334464
+    Gram score = 0.94216016 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,4]: 5 -> -1
+      G[10,11]: 1 -> -3
+    Could not decompose (time limit 39s)
+
+  Progress: 1771s, 5006 Grams tried, 40 higher, 37 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [5112] Higher Gram found! det = 1446185992903203403778066398562382721843200
+    Gram score = 0.94638884 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[2,4]: 5 -> -1
+      G[20,24]: 1 -> -1
+      G[25,26]: 1 -> -1
+    Could not decompose (time limit 64s)
+
+  Progress: 1836s, 5112 Grams tried, 41 higher, 38 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [5305] Higher Gram found! det = 1417722936211561841621046388728323710648320
+    Gram score = 0.93702940 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[3,10]: 1 -> 3
+      G[6,9]: -3 -> 1
+      G[14,28]: 1 -> -1
+    Could not decompose (time limit 20s)
+
+  [5474] Higher Gram found! det = 1426541682251756519856013374003831512236032
+    Gram score = 0.93993921 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[1,5]: 5 -> -1
+      G[10,15]: 1 -> -3
+      G[12,25]: 1 -> -1
+      G[17,25]: 1 -> -1
+    Could not decompose (time limit 26s)
+
+  [5925] Higher Gram found! det = 1455945466148743533529174153352514436595712
+    Gram score = 0.94957679 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,3]: 5 -> 1
+    Could not decompose (time limit 83s)
+
+  Progress: 1965s, 5925 Grams tried, 45 higher, 41 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [5986] Higher Gram found! det = 1453232454553236120065541995578986078404608
+    Gram score = 0.94869165 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,4]: 5 -> -1
+    Could not decompose (time limit 78s)
+
+  Progress: 2044s, 5986 Grams tried, 46 higher, 42 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [6089] Higher Gram found! det = 1419086711349435202987516107260669728915456
+    Gram score = 0.93747998 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,7]: -3 -> 3
+    Could not decompose (time limit 20s)
+
+  [6137] Higher Gram found! det = 1425376103167302489070968355775558180667392
+    Gram score = 0.93955514 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[6,7]: -3 -> 1
+      G[26,27]: 1 -> -1
+      G[27,28]: 1 -> -1
+    Could not decompose (time limit 23s)
+
+  [6174] Higher Gram found! det = 1447177017530156283259254978609942626304000
+    Gram score = 0.94671305 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[0,3]: 5 -> 1
+      G[1,26]: 1 -> -1
+      G[25,28]: 1 -> -1
+    Could not decompose (time limit 66s)
+
+  Progress: 2154s, 6174 Grams tried, 49 higher, 45 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [6298] Higher Gram found! det = 1417347186899189783883231836898273144078336
+    Gram score = 0.93690522 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,3]: 5 -> -1
+      G[17,18]: 1 -> 5
+    Could not decompose (time limit 20s)
+
+  [6553] Higher Gram found! det = 1434602272458268171057211602253141365489664
+    Gram score = 0.94259101 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,4]: 5 -> -3
+    Could not decompose (time limit 42s)
+
+  Progress: 2215s, 6553 Grams tried, 52 higher, 47 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [6653] Higher Gram found! det = 1434565589763156482634380837755588637097984
+    Gram score = 0.94257896 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,4]: 5 -> 1
+      G[21,23]: 1 -> -3
+    Could not decompose (time limit 41s)
+
+  [6965] Higher Gram found! det = 1423959696914531469024088991876087650713600
+    Gram score = 0.93908820 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,4]: 5 -> -3
+      G[15,28]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  Progress: 2278s, 6965 Grams tried, 54 higher, 49 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [7103] Higher Gram found! det = 1420909403121211916263541691035713651343360
+    Gram score = 0.93808184 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[2,4]: 5 -> 3
+      G[5,22]: 1 -> 3
+      G[9,26]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  [7233] Higher Gram found! det = 1417347186899189783883231836898273144078336
+    Gram score = 0.93690522 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,5]: 5 -> -1
+      G[18,20]: 1 -> 5
+    Could not decompose (time limit 20s)
+
+  [7558] Higher Gram found! det = 1419982321075478695502798634573333270626304
+    Gram score = 0.93777576 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,3]: 5 -> 1
+      G[20,28]: 1 -> 5
+    Could not decompose (time limit 20s)
+
+  Progress: 2339s, 7558 Grams tried, 57 higher, 52 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [7587] Higher Gram found! det = 1417347186899189783883231836898273144078336
+    Gram score = 0.93690522 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,5]: 5 -> -1
+      G[18,27]: 1 -> 5
+    Could not decompose (time limit 20s)
+
+  [7681] Higher Gram found! det = 1432020627530457704873086972139760569548800
+    Gram score = 0.94174250 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,5]: 5 -> 3
+      G[26,28]: 1 -> 3
+    Could not decompose (time limit 36s)
+
+  [7741] Higher Gram found! det = 1445131771294467600631132498259937224294400
+    Gram score = 0.94604383 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,3]: 5 -> 1
+      G[13,22]: 1 -> 3
+    Could not decompose (time limit 62s)
+
+  Progress: 2457s, 7741 Grams tried, 60 higher, 55 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [7891] Higher Gram found! det = 1440051662181090819575445232364156434251776
+    Gram score = 0.94437954 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,5]: 5 -> 3
+      G[10,16]: 1 -> -1
+    Could not decompose (time limit 52s)
+
+  [7920] Higher Gram found! det = 1455945466148743533529174153352514436595712
+    Gram score = 0.94957679 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,5]: 5 -> 1
+    Could not decompose (time limit 83s)
+
+  Progress: 2593s, 7920 Grams tried, 62 higher, 57 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [7992] Higher Gram found! det = 1417347186899189783883231836898273144078336
+    Gram score = 0.93690522 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,5]: 5 -> -1
+      G[12,19]: 1 -> 5
+    Could not decompose (time limit 20s)
+
+  [7998] Higher Gram found! det = 1419982321075478695502798634573333270626304
+    Gram score = 0.93777576 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,5]: 5 -> 1
+      G[21,23]: 1 -> 5
+    Could not decompose (time limit 20s)
+
+  [8171] Higher Gram found! det = 1422225749613856322297570527401250023014400
+    Gram score = 0.93851627 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[6,7]: -3 -> 1
+      G[8,9]: 1 -> -1
+      G[15,24]: 1 -> -1
+    Could not decompose (time limit 20s)
+
+  Progress: 2654s, 8171 Grams tried, 65 higher, 60 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [8181] Higher Gram found! det = 1428277191263600651281393601268538146816000
+    Gram score = 0.94051080 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[0,4]: 5 -> -1
+      G[12,18]: 1 -> -1
+      G[20,28]: 1 -> 3
+      G[23,27]: 1 -> 3
+    Could not decompose (time limit 29s)
+
+  [8320] Higher Gram found! det = 1452423405638306494196923599851064907530240
+    Gram score = 0.94842754 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,5]: 5 -> 1
+      G[23,25]: 1 -> -1
+    Could not decompose (time limit 77s)
+
+  Progress: 2759s, 8320 Grams tried, 68 higher, 62 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [8408] Higher Gram found! det = 1417895961167988389136693015184937746169856
+    Gram score = 0.93708658 (OS = 0.93567251)
+    5 pairs differ from OS Gram
+      G[2,4]: 5 -> 1
+      G[10,23]: 1 -> -1
+      G[20,23]: 1 -> 3
+      G[23,25]: 1 -> -1
+      G[23,27]: 1 -> -3
+    Could not decompose (time limit 20s)
+
+  [8508] Higher Gram found! det = 1426442998298040834596146311103426257223680
+    Gram score = 0.93990670 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[0,4]: 5 -> 1
+      G[3,20]: 1 -> -3
+      G[25,27]: 1 -> -1
+    Could not decompose (time limit 25s)
+
+  [8773] Higher Gram found! det = 1450507454960971987109495708655395425746944
+    Gram score = 0.94780178 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,4]: 5 -> -1
+      G[9,14]: 1 -> -1
+    Could not decompose (time limit 73s)
+
+  Progress: 2878s, 8773 Grams tried, 71 higher, 65 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [8866] Higher Gram found! det = 1430130617426320958876753167903190213984256
+    Gram score = 0.94112083 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,9]: -3 -> -1
+    Could not decompose (time limit 33s)
+
+  [9246] Higher Gram found! det = 1428277191263600651281393601268538146816000
+    Gram score = 0.94051080 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[1,4]: 5 -> -1
+      G[14,20]: 1 -> 3
+      G[18,21]: 1 -> 3
+      G[26,27]: 1 -> -1
+    Could not decompose (time limit 29s)
+
+  Progress: 2940s, 9246 Grams tried, 73 higher, 67 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [9263] Higher Gram found! det = 1430130617426320958876753167903190213984256
+    Gram score = 0.94112083 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,10]: -3 -> -1
+    Could not decompose (time limit 33s)
+
+  [9279] Higher Gram found! det = 1419086711349435202987516107260669728915456
+    Gram score = 0.93747998 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,9]: -3 -> 3
+    Could not decompose (time limit 20s)
+
+  [9403] Higher Gram found! det = 1419868800208349357537223303187803322449920
+    Gram score = 0.93773828 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,3]: 5 -> 1
+      G[3,19]: 1 -> 5
+    Could not decompose (time limit 20s)
+
+  Progress: 3013s, 9403 Grams tried, 76 higher, 70 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [9419] Higher Gram found! det = 1429230201002297314085375574897743900966912
+    Gram score = 0.94082452 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[6,9]: -3 -> 1
+      G[7,12]: 1 -> -1
+    Could not decompose (time limit 31s)
+
+  [9420] Higher Gram found! det = 1445673178838640523942312811811101915217920
+    Gram score = 0.94622103 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,23]: 1 -> 3
+      G[1,5]: 5 -> 1
+    Could not decompose (time limit 63s)
+
+  Progress: 3107s, 9420 Grams tried, 78 higher, 72 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [9507] Higher Gram found! det = 1453232454553236120065541995578986078404608
+    Gram score = 0.94869165 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,3]: 5 -> -1
+    Could not decompose (time limit 78s)
+
+  Progress: 3186s, 9507 Grams tried, 80 higher, 73 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [9574] Higher Gram found! det = 1451319210518334814753199932343696368861184
+    Gram score = 0.94806695 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,3]: 5 -> 1
+      G[2,16]: 1 -> -1
+    Could not decompose (time limit 74s)
+
+  Progress: 3260s, 9574 Grams tried, 81 higher, 74 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [9798] Higher Gram found! det = 1432020627530457704873086972139760569548800
+    Gram score = 0.94174250 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,5]: 5 -> 3
+      G[23,27]: 1 -> 3
+    Could not decompose (time limit 36s)
+
+  [9854] Higher Gram found! det = 1447308073159998751272922769052407737352192
+    Gram score = 0.94675592 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,4]: 5 -> -1
+      G[8,19]: 1 -> -1
+      G[19,20]: 1 -> -1
+    Could not decompose (time limit 67s)
+
+  Progress: 3363s, 9854 Grams tried, 83 higher, 76 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [9872] Higher Gram found! det = 1450693648386857467053185373562370156134400
+    Gram score = 0.94786261 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,4]: 5 -> 1
+      G[3,21]: 1 -> -1
+    Could not decompose (time limit 73s)
+
+  Progress: 3437s, 9872 Grams tried, 84 higher, 77 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [9880] Higher Gram found! det = 1453232454553236120065541995578986078404608
+    Gram score = 0.94869165 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,3]: 5 -> -1
+    Could not decompose (time limit 78s)
+
+  Progress: 3515s, 9880 Grams tried, 85 higher, 78 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [9962] Higher Gram found! det = 1419086711349435202987516107260669728915456
+    Gram score = 0.93747998 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,9]: -3 -> 3
+    Could not decompose (time limit 20s)
+
+  [10377] Higher Gram found! det = 1455945466148743533529174153352514436595712
+    Gram score = 0.94957679 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,3]: 5 -> 1
+    Could not decompose (time limit 83s)
+
+  Progress: 3619s, 10377 Grams tried, 87 higher, 80 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [10382] Higher Gram found! det = 1417347186899189783883231836898273144078336
+    Gram score = 0.93690522 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,5]: 5 -> -1
+      G[21,22]: 1 -> 5
+    Could not decompose (time limit 20s)
+
+  [10491] Higher Gram found! det = 1434390520810160623953480866976266138419200
+    Gram score = 0.94252144 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[2,4]: 5 -> 1
+      G[20,22]: 1 -> 3
+      G[25,26]: 1 -> 3
+    Could not decompose (time limit 41s)
+
+  Progress: 3680s, 10491 Grams tried, 89 higher, 82 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [10556] Higher Gram found! det = 1419086711349435202987516107260669728915456
+    Gram score = 0.93747998 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,10]: -3 -> 3
+    Could not decompose (time limit 20s)
+
+  [10690] Higher Gram found! det = 1426935258935050607675583963011356525854720
+    Gram score = 0.94006887 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[0,5]: 5 -> -3
+      G[5,20]: 1 -> -1
+      G[11,14]: 1 -> -1
+    Could not decompose (time limit 26s)
+
+  [10919] Higher Gram found! det = 1435770735384400885830891354189883401830400
+    Gram score = 0.94297479 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[2,3]: 5 -> 3
+      G[12,25]: 1 -> -1
+      G[16,20]: 1 -> -1
+    Could not decompose (time limit 44s)
+
+  Progress: 3771s, 10919 Grams tried, 93 higher, 85 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [10972] Higher Gram found! det = 1429781246018144726319545122691662038958080
+    Gram score = 0.94100587 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[2,4]: 5 -> 1
+      G[7,28]: 1 -> 3
+      G[9,25]: 1 -> -1
+      G[10,24]: 1 -> 3
+    Could not decompose (time limit 32s)
+
+  [11020] Higher Gram found! det = 1436031179863052762977655196514493403234304
+    Gram score = 0.94306032 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[0,3]: 5 -> 3
+      G[16,26]: 1 -> -1
+      G[20,26]: 1 -> -1
+    Could not decompose (time limit 44s)
+
+  Progress: 3847s, 11020 Grams tried, 95 higher, 87 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [11429] Higher Gram found! det = 1442741307244790411448108075573726440062976
+    Gram score = 0.94526106 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,4]: 5 -> 3
+    Could not decompose (time limit 58s)
+
+  [11460] Higher Gram found! det = 1424002150809520642909994424063988114391040
+    Gram score = 0.93910220 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[6,7]: -3 -> -1
+      G[10,24]: 1 -> -1
+      G[11,18]: 1 -> -1
+    Could not decompose (time limit 21s)
+
+  Progress: 3926s, 11460 Grams tried, 97 higher, 89 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [11945] Higher Gram found! det = 1434921060189558036618716941364295442104320
+    Gram score = 0.94269573 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[1,3]: 5 -> -1
+      G[7,16]: 1 -> 3
+      G[8,19]: 1 -> -1
+      G[16,27]: 1 -> -1
+    Could not decompose (time limit 42s)
+
+  [12099] Higher Gram found! det = 1418206283955152669917097078626303648727040
+    Gram score = 0.93718912 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[2,3]: 5 -> 1
+      G[4,5]: 1 -> 3
+      G[11,13]: 1 -> -3
+      G[27,28]: 1 -> -3
+    Could not decompose (time limit 20s)
+
+  Progress: 3989s, 12099 Grams tried, 99 higher, 91 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [12174] Higher Gram found! det = 1434602272458268171057211602253141365489664
+    Gram score = 0.94259101 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,3]: 5 -> -3
+    Could not decompose (time limit 42s)
+
+  [12261] Higher Gram found! det = 1442741307244790411448108075573726440062976
+    Gram score = 0.94526106 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[2,5]: 5 -> 3
+    Could not decompose (time limit 58s)
+
+  Progress: 4088s, 12261 Grams tried, 101 higher, 93 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [12288] Higher Gram found! det = 1431952861929007108598477282909206094020608
+    Gram score = 0.94172022 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,9]: -3 -> 1
+    Could not decompose (time limit 36s)
+
+  [12445] Higher Gram found! det = 1428424341699454398115278396506032350167040
+    Gram score = 0.94055924 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[0,15]: 1 -> 3
+      G[1,5]: 5 -> -1
+      G[2,15]: 1 -> 3
+      G[23,24]: 1 -> -1
+    Could not decompose (time limit 29s)
+
+  Progress: 4154s, 12445 Grams tried, 103 higher, 95 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [13367] Higher Gram found! det = 1429230201002297314085375574897743900966912
+    Gram score = 0.94082452 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[6,7]: -3 -> 1
+      G[10,18]: 1 -> -1
+    Could not decompose (time limit 31s)
+
+  [13456] Higher Gram found! det = 1455945466148743533529174153352514436595712
+    Gram score = 0.94957679 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,5]: 5 -> 1
+    Could not decompose (time limit 83s)
+
+  Progress: 4269s, 13456 Grams tried, 105 higher, 97 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [13528] Higher Gram found! det = 1419086711349435202987516107260669728915456
+    Gram score = 0.93747998 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,10]: -3 -> 3
+    Could not decompose (time limit 20s)
+
+  [13568] Higher Gram found! det = 1420571317301381103396140540127303704772608
+    Gram score = 0.93797023 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,3]: 5 -> -1
+      G[14,18]: 1 -> 3
+      G[18,22]: 1 -> -3
+    Could not decompose (time limit 20s)
+
+  [13587] Higher Gram found! det = 1429865379639233464385508116818391606493184
+    Gram score = 0.94103356 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[2,3]: 5 -> 3
+      G[4,11]: 1 -> 3
+      G[10,27]: 1 -> -1
+    Could not decompose (time limit 32s)
+
+  Progress: 4342s, 13587 Grams tried, 108 higher, 100 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [13908] Higher Gram found! det = 1426700808431933020300335515447525816401920
+    Gram score = 0.93999164 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[6,10]: -3 -> -1
+      G[14,23]: 1 -> -1
+    Could not decompose (time limit 26s)
+
+  [14065] Higher Gram found! det = 1442741307244790411448108075573726440062976
+    Gram score = 0.94526106 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,3]: 5 -> 3
+    Could not decompose (time limit 58s)
+
+  Progress: 4426s, 14065 Grams tried, 110 higher, 102 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [14117] Higher Gram found! det = 1434602272458268171057211602253141365489664
+    Gram score = 0.94259101 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,4]: 5 -> -3
+    Could not decompose (time limit 42s)
+
+  [14204] Higher Gram found! det = 1434602272458268171057211602253141365489664
+    Gram score = 0.94259101 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[2,4]: 5 -> -3
+    Could not decompose (time limit 42s)
+
+  Progress: 4509s, 14204 Grams tried, 112 higher, 104 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [14362] Higher Gram found! det = 1431812158207361425030858354838205156556800
+    Gram score = 0.94167395 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,5]: 5 -> -1
+      G[5,11]: 1 -> 3
+      G[24,26]: 1 -> 3
+    Could not decompose (time limit 36s)
+
+  [14459] Higher Gram found! det = 1432528235823343157903137089907404302188544
+    Gram score = 0.94190940 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,5]: 5 -> 3
+      G[4,13]: 1 -> 3
+    Could not decompose (time limit 37s)
+
+  Progress: 4582s, 14459 Grams tried, 114 higher, 106 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [14494] Higher Gram found! det = 1420139487714238487423228612817558551134208
+    Gram score = 0.93782766 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,3]: 5 -> 1
+      G[5,10]: 1 -> -3
+      G[11,12]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  [14761] Higher Gram found! det = 1420509467051464779447977815926311485440000
+    Gram score = 0.93794981 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[0,4]: 5 -> -3
+      G[17,20]: 1 -> 3
+      G[21,25]: 1 -> -1
+    Could not decompose (time limit 20s)
+
+  [14861] Higher Gram found! det = 1452795161767909228575012754244559217623040
+    Gram score = 0.94854891 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[0,4]: 5 -> 1
+      G[1,4]: 5 -> 3
+      G[10,26]: 1 -> -3
+      G[18,22]: 1 -> 3
+    Could not decompose (time limit 77s)
+
+  Progress: 4700s, 14861 Grams tried, 117 higher, 109 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [14905] Higher Gram found! det = 1445131771294467600631132498259937224294400
+    Gram score = 0.94604383 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,4]: 5 -> 1
+      G[25,28]: 1 -> 3
+    Could not decompose (time limit 62s)
+
+  Progress: 4762s, 14905 Grams tried, 118 higher, 110 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [15177] Higher Gram found! det = 1438957688263197123553431695324249849856000
+    Gram score = 0.94402076 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[2,5]: 5 -> -1
+      G[13,28]: 1 -> 3
+      G[26,27]: 1 -> -1
+    Could not decompose (time limit 50s)
+
+  [15405] Higher Gram found! det = 1419086711349435202987516107260669728915456
+    Gram score = 0.93747998 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,7]: -3 -> 3
+    Could not decompose (time limit 20s)
+
+  Progress: 4833s, 15405 Grams tried, 120 higher, 112 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [15498] Higher Gram found! det = 1442741307244790411448108075573726440062976
+    Gram score = 0.94526106 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[2,3]: 5 -> 3
+    Could not decompose (time limit 58s)
+
+  [15615] Higher Gram found! det = 1426673393215741174343230468370537077800960
+    Gram score = 0.93998260 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[0,16]: 1 -> -1
+      G[2,3]: 5 -> -1
+      G[26,28]: 1 -> -3
+    Could not decompose (time limit 26s)
+
+  Progress: 4917s, 15615 Grams tried, 122 higher, 114 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [15654] Higher Gram found! det = 1453232454553236120065541995578986078404608
+    Gram score = 0.94869165 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,5]: 5 -> -1
+    Could not decompose (time limit 78s)
+
+  Progress: 4995s, 15654 Grams tried, 123 higher, 115 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [15668] Higher Gram found! det = 1447948469498746011632217819674670092255232
+    Gram score = 0.94696535 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[2,4]: 5 -> 3
+      G[5,10]: 1 -> -1
+      G[6,10]: -3 -> 1
+      G[8,9]: 1 -> 3
+    Could not decompose (time limit 68s)
+
+  Progress: 5063s, 15668 Grams tried, 124 higher, 116 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [15776] Higher Gram found! det = 1437555044348262395134099137216439295934464
+    Gram score = 0.94356055 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,28]: 1 -> -1
+      G[2,5]: 5 -> 3
+    Could not decompose (time limit 47s)
+
+  [15878] Higher Gram found! det = 1442741307244790411448108075573726440062976
+    Gram score = 0.94526106 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[2,3]: 5 -> 3
+    Could not decompose (time limit 58s)
+
+  Progress: 5168s, 15878 Grams tried, 126 higher, 118 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [15922] Higher Gram found! det = 1434602272458268171057211602253141365489664
+    Gram score = 0.94259101 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[2,3]: 5 -> -3
+    Could not decompose (time limit 42s)
+
+  [16285] Higher Gram found! det = 1439333224785766597599881623102018969141248
+    Gram score = 0.94414394 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[1,5]: 5 -> -1
+      G[2,5]: 5 -> 3
+      G[2,16]: 1 -> -1
+      G[17,28]: 1 -> 5
+    Could not decompose (time limit 51s)
+
+  Progress: 5261s, 16285 Grams tried, 128 higher, 120 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [16442] Higher Gram found! det = 1432020627530457704873086972139760569548800
+    Gram score = 0.94174250 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,5]: 5 -> 3
+      G[13,24]: 1 -> 3
+    Could not decompose (time limit 36s)
+
+  [16711] Higher Gram found! det = 1423959696914531469024088991876087650713600
+    Gram score = 0.93908820 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,5]: 5 -> -3
+      G[16,21]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  [16919] Higher Gram found! det = 1422977435820564077088998197470713641697280
+    Gram score = 0.93876425 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,3]: 5 -> 3
+      G[8,27]: 1 -> -3
+    Could not decompose (time limit 20s)
+
+  Progress: 5338s, 16919 Grams tried, 131 higher, 123 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [17087] Higher Gram found! det = 1418856536062067456493600120563094748397568
+    Gram score = 0.93740395 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,2]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  [17126] Higher Gram found! det = 1423930065740636391553116761037547241472000
+    Gram score = 0.93907843 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,4]: 5 -> 1
+      G[16,17]: 1 -> -3
+      G[23,24]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  [17278] Higher Gram found! det = 1445979652495911511164771920026252433424384
+    Gram score = 0.94632132 (OS = 0.93567251)
+    6 pairs differ from OS Gram
+      G[1,3]: 5 -> -3
+      G[2,3]: 5 -> -1
+      G[2,20]: 1 -> -1
+      G[8,24]: 1 -> -1
+      G[23,27]: 1 -> 3
+      G[25,27]: 1 -> -1
+    Could not decompose (time limit 64s)
+
+  Progress: 5443s, 17278 Grams tried, 134 higher, 126 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [17590] Higher Gram found! det = 1434602272458268171057211602253141365489664
+    Gram score = 0.94259101 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,4]: 5 -> -3
+    Could not decompose (time limit 42s)
+
+  [17598] Higher Gram found! det = 1430740914356802315723713796745596799811584
+    Gram score = 0.94132162 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,5]: 5 -> 3
+      G[6,14]: 1 -> -1
+      G[17,26]: 1 -> 3
+    Could not decompose (time limit 34s)
+
+  Progress: 5519s, 17598 Grams tried, 137 higher, 128 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [17735] Higher Gram found! det = 1455945466148743533529174153352514436595712
+    Gram score = 0.94957679 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,3]: 5 -> 1
+    Could not decompose (time limit 83s)
+
+  Progress: 5602s, 17735 Grams tried, 138 higher, 129 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [17751] Higher Gram found! det = 1444449120547160458900548707706505632153600
+    Gram score = 0.94582036 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,4]: 5 -> -1
+      G[5,28]: 1 -> -1
+      G[21,24]: 1 -> -1
+    Could not decompose (time limit 61s)
+
+  Progress: 5663s, 17751 Grams tried, 139 higher, 130 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [17807] Higher Gram found! det = 1446185992903203403778066398562382721843200
+    Gram score = 0.94638884 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[2,4]: 5 -> -1
+      G[21,23]: 1 -> -1
+      G[27,28]: 1 -> -1
+    Could not decompose (time limit 64s)
+
+  Progress: 5728s, 17807 Grams tried, 140 higher, 131 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [17839] Higher Gram found! det = 1417057376776314781116265106552452546560000
+    Gram score = 0.93680943 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[2,5]: 5 -> -3
+      G[17,18]: 1 -> 3
+      G[20,26]: 1 -> -1
+      G[27,28]: 1 -> -1
+    Could not decompose (time limit 20s)
+
+  [17924] Higher Gram found! det = 1453232454553236120065541995578986078404608
+    Gram score = 0.94869165 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,4]: 5 -> -1
+    Could not decompose (time limit 78s)
+
+  Progress: 5826s, 17924 Grams tried, 142 higher, 133 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [17925] Higher Gram found! det = 1421658260270984277260988010801178817331200
+    Gram score = 0.93832901 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,3]: 5 -> 3
+      G[6,16]: 1 -> -3
+      G[18,28]: 1 -> -1
+    Could not decompose (time limit 20s)
+
+  [18052] Higher Gram found! det = 1455945466148743533529174153352514436595712
+    Gram score = 0.94957679 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[0,5]: 5 -> 1
+    Could not decompose (time limit 83s)
+
+  Progress: 5930s, 18052 Grams tried, 144 higher, 135 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [18276] Higher Gram found! det = 1421277461697748050890442316024859506769920
+    Gram score = 0.93820333 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[6,10]: -3 -> 1
+      G[15,26]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  [18661] Higher Gram found! det = 1424142136520334448796572599682452160512000
+    Gram score = 0.93914836 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[2,5]: 5 -> -3
+      G[13,23]: 1 -> -1
+      G[16,26]: 1 -> -1
+      G[21,22]: 1 -> -1
+    Could not decompose (time limit 21s)
+
+  [19364] Higher Gram found! det = 1439523638624324321048363998420344294604800
+    Gram score = 0.94420639 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,4]: 5 -> -1
+      G[5,20]: 1 -> 3
+      G[23,25]: 1 -> -1
+    Could not decompose (time limit 51s)
+
+  Progress: 6023s, 19364 Grams tried, 147 higher, 138 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [19449] Higher Gram found! det = 1439257022220176606820955413870349406699520
+    Gram score = 0.94411895 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,3]: 5 -> 3
+      G[15,24]: 1 -> -1
+    Could not decompose (time limit 51s)
+
+  [19663] Higher Gram found! det = 1423675073985779096912288736824170985291776
+    Gram score = 0.93899434 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,4]: 5 -> -3
+      G[4,21]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  Progress: 6094s, 19663 Grams tried, 149 higher, 140 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [19986] Higher Gram found! det = 1453232454553236120065541995578986078404608
+    Gram score = 0.94869165 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,3]: 5 -> -1
+    Could not decompose (time limit 78s)
+
+  Progress: 6173s, 19986 Grams tried, 150 higher, 141 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [20003] Higher Gram found! det = 1430754016249677334589873009253932775505920
+    Gram score = 0.94132593 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[2,5]: 5 -> 1
+      G[9,17]: 1 -> -1
+      G[10,18]: 1 -> 3
+      G[12,27]: 1 -> 3
+    Could not decompose (time limit 34s)
+
+  [20051] Higher Gram found! det = 1433291103280623014823055935891262054334464
+    Gram score = 0.94216016 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,3]: 5 -> -1
+      G[7,17]: 1 -> -3
+    Could not decompose (time limit 39s)
+
+  Progress: 6246s, 20051 Grams tried, 152 higher, 143 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [20053] Higher Gram found! det = 1442741307244790411448108075573726440062976
+    Gram score = 0.94526106 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[2,4]: 5 -> 3
+    Could not decompose (time limit 58s)
+
+  [20154] Higher Gram found! det = 1431952861929007108598477282909206094020608
+    Gram score = 0.94172022 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,8]: -3 -> 1
+    Could not decompose (time limit 36s)
+
+  Progress: 6340s, 20154 Grams tried, 154 higher, 145 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [20265] Higher Gram found! det = 1438165912199415821936965058031651913728000
+    Gram score = 0.94376101 (OS = 0.93567251)
+    5 pairs differ from OS Gram
+      G[0,5]: 5 -> -1
+      G[2,9]: 1 -> -1
+      G[13,25]: 1 -> -1
+      G[18,23]: 1 -> -1
+      G[24,25]: 1 -> -1
+    Could not decompose (time limit 49s)
+
+  [20288] Higher Gram found! det = 1417809976868911611666357387439707783168000
+    Gram score = 0.93705817 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[2,4]: 5 -> -1
+      G[11,20]: 1 -> -1
+      G[13,18]: 1 -> 3
+      G[27,28]: 1 -> -3
+    Could not decompose (time limit 20s)
+
+  Progress: 6408s, 20288 Grams tried, 156 higher, 147 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [20324] Higher Gram found! det = 1434589181792275195682155779028244999700480
+    Gram score = 0.94258671 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[0,7]: 1 -> -1
+      G[1,3]: 5 -> 3
+      G[19,28]: 1 -> -1
+    Could not decompose (time limit 41s)
+
+  [20348] Higher Gram found! det = 1423930065740636391553116761037547241472000
+    Gram score = 0.93907843 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,5]: 5 -> 1
+      G[24,28]: 1 -> -3
+      G[25,27]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  Progress: 6470s, 20348 Grams tried, 158 higher, 149 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [20391] Higher Gram found! det = 1434565589763156482634380837755588637097984
+    Gram score = 0.94257896 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,5]: 5 -> 1
+      G[14,24]: 1 -> -3
+    Could not decompose (time limit 41s)
+
+  [20512] Higher Gram found! det = 1419482826960254115558441293670449927946240
+    Gram score = 0.93761081 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[6,10]: -3 -> -1
+      G[25,28]: 1 -> 3
+    Could not decompose (time limit 20s)
+
+  Progress: 6532s, 20512 Grams tried, 160 higher, 151 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [20551] Higher Gram found! det = 1452423405638306494196923599851064907530240
+    Gram score = 0.94842754 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,5]: 5 -> 1
+      G[17,21]: 1 -> -1
+    Could not decompose (time limit 77s)
+
+  Progress: 6609s, 20551 Grams tried, 161 higher, 152 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [20587] Higher Gram found! det = 1434602272458268171057211602253141365489664
+    Gram score = 0.94259101 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[1,4]: 5 -> -3
+    Could not decompose (time limit 42s)
+
+  [20681] Higher Gram found! det = 1434565589763156482634380837755588637097984
+    Gram score = 0.94257896 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,3]: 5 -> 1
+      G[21,28]: 1 -> -3
+    Could not decompose (time limit 41s)
+
+  Progress: 6692s, 20681 Grams tried, 163 higher, 154 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [20682] Higher Gram found! det = 1452367993495024535392059729499158258647040
+    Gram score = 0.94840944 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[1,4]: 5 -> 1
+      G[3,4]: 1 -> 3
+      G[23,26]: 1 -> -1
+    Could not decompose (time limit 76s)
+
+  Progress: 6768s, 20682 Grams tried, 164 higher, 155 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [20759] Higher Gram found! det = 1443015065153100954607476040612089943818240
+    Gram score = 0.94535074 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[0,4]: 5 -> -1
+      G[3,21]: 1 -> 3
+    Could not decompose (time limit 58s)
+
+  [20802] Higher Gram found! det = 1430756067036488269903755864755559955693568
+    Gram score = 0.94132660 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[2,5]: 5 -> -1
+      G[9,23]: 1 -> 3
+      G[11,20]: 1 -> 3
+    Could not decompose (time limit 34s)
+
+  Progress: 6860s, 20802 Grams tried, 166 higher, 157 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [20950] Higher Gram found! det = 1430756067036488269903755864755559955693568
+    Gram score = 0.94132660 (OS = 0.93567251)
+    3 pairs differ from OS Gram
+      G[2,4]: 5 -> -1
+      G[10,11]: 1 -> 3
+      G[13,16]: 1 -> 3
+    Could not decompose (time limit 34s)
+
+  [21016] Higher Gram found! det = 1419086711349435202987516107260669728915456
+    Gram score = 0.93747998 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,10]: -3 -> 3
+    Could not decompose (time limit 20s)
+
+  [21132] Higher Gram found! det = 1419086711349435202987516107260669728915456
+    Gram score = 0.93747998 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,8]: -3 -> 3
+    Could not decompose (time limit 20s)
+
+  Progress: 6934s, 21132 Grams tried, 169 higher, 160 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [21339] Higher Gram found! det = 1419086711349435202987516107260669728915456
+    Gram score = 0.93747998 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[6,9]: -3 -> 3
+    Could not decompose (time limit 20s)
+
+  [21369] Higher Gram found! det = 1445131771294467600631132498259937224294400
+    Gram score = 0.94604383 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[2,5]: 5 -> 1
+      G[21,24]: 1 -> 3
+    Could not decompose (time limit 62s)
+
+  Progress: 7017s, 21369 Grams tried, 171 higher, 162 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [21643] Higher Gram found! det = 1453232454553236120065541995578986078404608
+    Gram score = 0.94869165 (OS = 0.93567251)
+    1 pairs differ from OS Gram
+      G[2,3]: 5 -> -1
+    Could not decompose (time limit 78s)
+
+  Progress: 7095s, 21643 Grams tried, 172 higher, 163 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [21794] Higher Gram found! det = 1434565589763156482634380837755588637097984
+    Gram score = 0.94257896 (OS = 0.93567251)
+    2 pairs differ from OS Gram
+      G[1,3]: 5 -> 1
+      G[19,28]: 1 -> -3
+    Could not decompose (time limit 41s)
+
+  [21798] Higher Gram found! det = 1425081835530249749438764949359748657971200
+    Gram score = 0.93945815 (OS = 0.93567251)
+    5 pairs differ from OS Gram
+      G[2,4]: 5 -> -1
+      G[13,19]: 1 -> 3
+      G[18,24]: 1 -> 3
+      G[26,28]: 1 -> -1
+      G[27,28]: 1 -> -1
+    Could not decompose (time limit 23s)
+
+  Progress: 7160s, 21798 Grams tried, 174 higher, 165 decomp attempted, 0 decomp found
+  Best decomp score: 0.93567251
+
+  [21940] Higher Gram found! det = 1440016493694408114529405522822968203280384
+    Gram score = 0.94436801 (OS = 0.93567251)
+    4 pairs differ from OS Gram
+      G[1,4]: 5 -> 1
+      G[7,14]: 1 -> -1
+      G[7,22]: 1 -> -1
+      G[26,28]: 1 -> 3
+    Could not decompose (time limit 52s)
+
+======================================================================
+SEARCH COMPLETE
+Grams tried: 21940
+Grams with higher det: 175
+Decompositions attempted: 166
+Decompositions found: 0
+Best decomp score: 0.93567251
+======================================================================

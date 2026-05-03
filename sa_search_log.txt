@@ -1,0 +1,18 @@
+======================================================================
+SIMULATED ANNEALING SEARCH for 29x29 maxdet
+======================================================================
+
+--- SA Run 1: hot-slow, start=OS, T0=2.0, cooling=0.999999, budget=300s ---
+/home/xiwang/miniforge3/lib/python3.13/site-packages/numpy/_core/numeric.py:994: RuntimeWarning: overflow encountered in multiply
+  return multiply(a.ravel()[:, newaxis], b.ravel()[newaxis, :], out)
+/data/xiwang_home/project/AutoMath/tasks/matrix_det/sa_search.py:229: RuntimeWarning: invalid value encountered in subtract
+  Ai -= update
+/home/xiwang/miniforge3/lib/python3.13/site-packages/numpy/_core/numeric.py:994: RuntimeWarning: invalid value encountered in multiply
+  return multiply(a.ravel()[:, newaxis], b.ravel()[newaxis, :], out)
+/data/xiwang_home/project/AutoMath/tasks/matrix_det/sa_search.py:313: RuntimeWarning: overflow encountered in exp
+  score_approx = np.exp(best_ld) / THEORETICAL_MAX
+  SA: 60s, steps=12465, T=1.976468, accepted=0.880, improvements=217, reheats=0, best_score~inf
+/data/xiwang_home/project/AutoMath/tasks/matrix_det/sa_search.py:177: RuntimeWarning: invalid value encountered in scalar subtract
+  det2 = m11 * m22 - m12 * m21
+/data/xiwang_home/project/AutoMath/tasks/matrix_det/sa_search.py:212: RuntimeWarning: invalid value encountered in matmul
+  dn = 1.0 + d_row @ Ai[:, row]

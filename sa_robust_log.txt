@@ -1,0 +1,658 @@
+======================================================================
+MASSIVE PERTURBATION + HILL CLIMB SEARCH
+======================================================================
+Base score: 0.93567251
+Base exact |det| = 1188957517256767569920
+
+  Progress: 60s, 26709 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 13751 times
+    0.9211: 67 times
+    0.8872: 1 times
+    0.8730: 25 times
+    0.8081: 3 times
+
+  Progress: 120s, 59209 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 30402 times
+    0.9211: 131 times
+    0.8872: 4 times
+    0.8730: 50 times
+    0.8509: 1 times
+
+  Progress: 180s, 91756 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 47062 times
+    0.9211: 206 times
+    0.8872: 7 times
+    0.8730: 79 times
+    0.8623: 2 times
+
+  Progress: 240s, 124268 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 63718 times
+    0.9211: 269 times
+    0.8872: 8 times
+    0.8730: 105 times
+    0.8623: 3 times
+
+  Progress: 300s, 156898 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 80530 times
+    0.9211: 340 times
+    0.8872: 12 times
+    0.8730: 132 times
+    0.8623: 4 times
+
+  Progress: 360s, 189414 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 97208 times
+    0.9211: 429 times
+    0.8872: 16 times
+    0.8801: 1 times
+    0.8730: 153 times
+
+  Progress: 420s, 221859 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 113829 times
+    0.9211: 507 times
+    0.8872: 16 times
+    0.8801: 2 times
+    0.8730: 177 times
+
+  Progress: 480s, 254395 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 130588 times
+    0.9211: 583 times
+    0.8872: 17 times
+    0.8801: 2 times
+    0.8730: 206 times
+
+  Progress: 540s, 286869 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 147267 times
+    0.9211: 660 times
+    0.8872: 26 times
+    0.8801: 2 times
+    0.8730: 237 times
+
+  Progress: 600s, 319489 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 164048 times
+    0.9211: 722 times
+    0.8872: 28 times
+    0.8801: 2 times
+    0.8730: 261 times
+
+  Progress: 660s, 351953 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 180689 times
+    0.9211: 777 times
+    0.8872: 29 times
+    0.8801: 2 times
+    0.8730: 292 times
+
+  Progress: 720s, 384426 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 197364 times
+    0.9211: 849 times
+    0.8872: 31 times
+    0.8801: 2 times
+    0.8730: 323 times
+
+  Progress: 780s, 416948 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 214106 times
+    0.9211: 930 times
+    0.8872: 32 times
+    0.8801: 3 times
+    0.8730: 350 times
+
+  Progress: 840s, 449508 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 230874 times
+    0.9211: 1013 times
+    0.8872: 33 times
+    0.8801: 4 times
+    0.8730: 381 times
+
+  Progress: 900s, 482089 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 247602 times
+    0.9211: 1061 times
+    0.8872: 36 times
+    0.8801: 4 times
+    0.8730: 409 times
+
+  Progress: 960s, 514687 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 264391 times
+    0.9211: 1131 times
+    0.8872: 37 times
+    0.8801: 4 times
+    0.8730: 433 times
+
+  Progress: 1020s, 547355 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 281174 times
+    0.9211: 1193 times
+    0.8872: 40 times
+    0.8801: 4 times
+    0.8730: 468 times
+
+  Progress: 1080s, 579899 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 297825 times
+    0.9211: 1269 times
+    0.8872: 42 times
+    0.8801: 4 times
+    0.8730: 500 times
+
+  Progress: 1140s, 612553 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 314623 times
+    0.9211: 1346 times
+    0.8872: 48 times
+    0.8801: 5 times
+    0.8730: 529 times
+
+  Progress: 1200s, 645033 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 331285 times
+    0.9211: 1417 times
+    0.8872: 48 times
+    0.8801: 5 times
+    0.8730: 553 times
+
+  Progress: 1260s, 677537 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 347973 times
+    0.9211: 1484 times
+    0.8872: 49 times
+    0.8801: 5 times
+    0.8730: 577 times
+
+  Progress: 1320s, 710036 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 364614 times
+    0.9211: 1555 times
+    0.8872: 49 times
+    0.8801: 5 times
+    0.8730: 620 times
+
+  Progress: 1380s, 742637 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 381340 times
+    0.9211: 1629 times
+    0.8872: 49 times
+    0.8801: 5 times
+    0.8730: 647 times
+
+  Progress: 1440s, 775206 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 398054 times
+    0.9211: 1699 times
+    0.8872: 50 times
+    0.8801: 5 times
+    0.8730: 674 times
+
+  Progress: 1500s, 807754 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 414801 times
+    0.9211: 1780 times
+    0.8872: 53 times
+    0.8801: 6 times
+    0.8730: 711 times
+
+  Progress: 1560s, 840234 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 431405 times
+    0.9211: 1866 times
+    0.8872: 56 times
+    0.8801: 6 times
+    0.8730: 740 times
+
+  Progress: 1620s, 872805 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 448124 times
+    0.9211: 1929 times
+    0.8872: 58 times
+    0.8801: 6 times
+    0.8730: 768 times
+
+  Progress: 1680s, 905367 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 464845 times
+    0.9211: 2003 times
+    0.8872: 61 times
+    0.8801: 6 times
+    0.8730: 794 times
+
+  Progress: 1740s, 938057 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 481667 times
+    0.9211: 2068 times
+    0.8872: 63 times
+    0.8801: 6 times
+    0.8730: 819 times
+
+  Progress: 1800s, 970501 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 498321 times
+    0.9211: 2132 times
+    0.8872: 66 times
+    0.8801: 6 times
+    0.8730: 852 times
+
+  Progress: 1860s, 1003058 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 515045 times
+    0.9211: 2190 times
+    0.8872: 66 times
+    0.8801: 6 times
+    0.8730: 882 times
+
+  Progress: 1920s, 1035606 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 531748 times
+    0.9211: 2263 times
+    0.8872: 68 times
+    0.8801: 6 times
+    0.8730: 909 times
+
+  Progress: 1980s, 1068032 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 548364 times
+    0.9211: 2339 times
+    0.8872: 70 times
+    0.8801: 6 times
+    0.8730: 928 times
+
+  Progress: 2040s, 1100451 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 564983 times
+    0.9211: 2405 times
+    0.8872: 72 times
+    0.8801: 6 times
+    0.8730: 955 times
+
+  Progress: 2100s, 1132937 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 581574 times
+    0.9211: 2466 times
+    0.8872: 72 times
+    0.8801: 6 times
+    0.8730: 974 times
+
+  Progress: 2160s, 1165485 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 598230 times
+    0.9211: 2523 times
+    0.8872: 77 times
+    0.8801: 6 times
+    0.8730: 998 times
+
+  Progress: 2220s, 1198083 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 615032 times
+    0.9211: 2580 times
+    0.8872: 78 times
+    0.8801: 6 times
+    0.8730: 1025 times
+
+  Progress: 2280s, 1230659 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 631829 times
+    0.9211: 2651 times
+    0.8872: 82 times
+    0.8801: 6 times
+    0.8730: 1047 times
+
+  Progress: 2340s, 1263171 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 648556 times
+    0.9211: 2710 times
+    0.8872: 84 times
+    0.8801: 6 times
+    0.8730: 1074 times
+
+  Progress: 2400s, 1295558 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 665197 times
+    0.9211: 2769 times
+    0.8872: 84 times
+    0.8801: 6 times
+    0.8730: 1094 times
+
+  Progress: 2460s, 1328088 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 681886 times
+    0.9211: 2842 times
+    0.8872: 87 times
+    0.8801: 6 times
+    0.8730: 1123 times
+
+  Progress: 2520s, 1360635 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 698611 times
+    0.9211: 2918 times
+    0.8872: 89 times
+    0.8801: 7 times
+    0.8730: 1144 times
+
+  Progress: 2580s, 1393162 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 715319 times
+    0.9211: 2977 times
+    0.8872: 91 times
+    0.8801: 7 times
+    0.8730: 1175 times
+
+  Progress: 2640s, 1425696 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 732034 times
+    0.9211: 3050 times
+    0.8872: 93 times
+    0.8801: 7 times
+    0.8730: 1197 times
+
+  Progress: 2700s, 1458234 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 748785 times
+    0.9211: 3118 times
+    0.8872: 95 times
+    0.8801: 7 times
+    0.8730: 1222 times
+
+  Progress: 2760s, 1490767 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 765505 times
+    0.9211: 3188 times
+    0.8872: 98 times
+    0.8801: 7 times
+    0.8730: 1263 times
+
+  Progress: 2820s, 1523264 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 782264 times
+    0.9211: 3264 times
+    0.8872: 100 times
+    0.8801: 8 times
+    0.8730: 1295 times
+
+  Progress: 2880s, 1555735 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 798905 times
+    0.9211: 3329 times
+    0.8872: 102 times
+    0.8801: 9 times
+    0.8730: 1318 times
+
+  Progress: 2940s, 1588188 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 815518 times
+    0.9211: 3394 times
+    0.8872: 102 times
+    0.8801: 9 times
+    0.8730: 1340 times
+
+  Progress: 3000s, 1620727 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 832223 times
+    0.9211: 3473 times
+    0.8872: 106 times
+    0.8801: 9 times
+    0.8730: 1364 times
+
+  Progress: 3060s, 1653308 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 849004 times
+    0.9211: 3536 times
+    0.8872: 107 times
+    0.8801: 9 times
+    0.8730: 1392 times
+
+  Progress: 3120s, 1685859 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 865755 times
+    0.9211: 3602 times
+    0.8872: 108 times
+    0.8801: 9 times
+    0.8730: 1422 times
+
+  Progress: 3180s, 1718449 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 882524 times
+    0.9211: 3683 times
+    0.8872: 111 times
+    0.8801: 9 times
+    0.8730: 1445 times
+
+  Progress: 3240s, 1750878 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 899121 times
+    0.9211: 3746 times
+    0.8872: 114 times
+    0.8801: 9 times
+    0.8730: 1477 times
+
+  Progress: 3300s, 1783188 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 915728 times
+    0.9211: 3812 times
+    0.8872: 117 times
+    0.8801: 10 times
+    0.8730: 1500 times
+
+  Progress: 3360s, 1815698 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 932387 times
+    0.9211: 3879 times
+    0.8872: 119 times
+    0.8801: 10 times
+    0.8730: 1533 times
+
+  Progress: 3420s, 1848296 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 949132 times
+    0.9211: 3946 times
+    0.8872: 124 times
+    0.8801: 10 times
+    0.8730: 1561 times
+
+  Progress: 3480s, 1880819 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 965776 times
+    0.9211: 4017 times
+    0.8872: 126 times
+    0.8801: 10 times
+    0.8730: 1599 times
+
+  Progress: 3540s, 1913356 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 982492 times
+    0.9211: 4087 times
+    0.8872: 129 times
+    0.8801: 10 times
+    0.8730: 1629 times
+
+  Progress: 3600s, 1945856 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 999166 times
+    0.9211: 4157 times
+    0.8872: 131 times
+    0.8801: 10 times
+    0.8730: 1654 times
+
+  Progress: 3660s, 1978291 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1015813 times
+    0.9211: 4216 times
+    0.8872: 132 times
+    0.8801: 10 times
+    0.8730: 1682 times
+
+  Progress: 3720s, 2010815 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1032531 times
+    0.9211: 4285 times
+    0.8872: 135 times
+    0.8801: 11 times
+    0.8730: 1717 times
+
+  Progress: 3780s, 2043288 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1049177 times
+    0.9211: 4350 times
+    0.8872: 136 times
+    0.8801: 11 times
+    0.8730: 1743 times
+
+  Progress: 3840s, 2075707 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1065813 times
+    0.9211: 4412 times
+    0.8872: 138 times
+    0.8801: 11 times
+    0.8730: 1772 times
+
+  Progress: 3900s, 2108305 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1082566 times
+    0.9211: 4489 times
+    0.8872: 141 times
+    0.8801: 12 times
+    0.8730: 1803 times
+
+  Progress: 3960s, 2140771 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1099238 times
+    0.9211: 4554 times
+    0.8872: 142 times
+    0.8801: 12 times
+    0.8730: 1832 times
+
+  Progress: 4020s, 2173175 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1115845 times
+    0.9211: 4618 times
+    0.8872: 145 times
+    0.8801: 12 times
+    0.8730: 1852 times
+
+  Progress: 4080s, 2205675 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1132542 times
+    0.9211: 4688 times
+    0.8872: 146 times
+    0.8801: 12 times
+    0.8730: 1877 times
+
+  Progress: 4140s, 2238278 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1149282 times
+    0.9211: 4756 times
+    0.8872: 146 times
+    0.8801: 12 times
+    0.8730: 1905 times
+
+  Progress: 4200s, 2270665 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1165836 times
+    0.9211: 4819 times
+    0.8872: 148 times
+    0.8801: 13 times
+    0.8730: 1924 times
+
+  Progress: 4260s, 2303134 trials
+  Best score: 0.93567251
+  Score distribution (top 5):
+    0.9357: 1182535 times
+    0.9211: 4903 times
+    0.8872: 149 times
+    0.8801: 13 times
+    0.8730: 1958 times
+Traceback (most recent call last):
+  File "/data/xiwang_home/project/AutoMath/tasks/matrix_det/sa_robust.py", line 256, in <module>
+    massive_perturbation_search()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/xiwang_home/project/AutoMath/tasks/matrix_det/sa_robust.py", line 194, in massive_perturbation_search
+    A, _ = row_replace_climb(A, time.time() + 0.15)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/xiwang_home/project/AutoMath/tasks/matrix_det/sa_robust.py", line 88, in row_replace_climb
+    Ai = np.linalg.inv(A); s, ld = np.linalg.slogdet(A)
+  File "/home/xiwang/miniforge3/lib/python3.13/site-packages/numpy/linalg/_linalg.py", line 648, in inv
+    ainv = _umath_linalg.inv(a, signature=signature)
+  File "/home/xiwang/miniforge3/lib/python3.13/site-packages/numpy/linalg/_linalg.py", line 145, in _raise_linalgerror_singular
+    raise LinAlgError("Singular matrix")
+numpy.linalg.LinAlgError: Singular matrix

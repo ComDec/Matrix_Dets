@@ -1,0 +1,45 @@
+======================================================================
+ALTERNATIVE GRAM STRUCTURE SEARCH for 29x29 maxdet
+======================================================================
+OS Gram det = 1413619977841376753822343762242622088806400
+OS |det(R)| = sqrt(det(G)) = 1.1890e+21
+OS score = 0.93567251
+
+======================================================================
+Testing various Gram structures
+======================================================================
+
+G1 (all off-diag=1): det = 1889294817455442367166645510441782531325952
+  score = 1.08170142
+
+Random Gram structure search...
+  0 trials (1 valid), best det = 1413619977841376753822343762242622088806400, 0.0s
+  Trial 216: NEW BEST Gram det = 1465780207163220816964520410491346212618240, score = 0.95277853
+  Off-diag values: [np.int64(-3), np.int64(-1), np.int64(1), np.int64(5)]
+  10000 trials (10001 valid), best det = 1465780207163220816964520410491346212618240, 23.8s
+  20000 trials (20001 valid), best det = 1465780207163220816964520410491346212618240, 40.2s
+  30000 trials (30001 valid), best det = 1465780207163220816964520410491346212618240, 52.0s
+  Trial 35462: NEW BEST Gram det = 1490232125882065106374043012743827554304000, score = 0.96069271
+  Off-diag values: [np.int64(-3), np.int64(-1), np.int64(1), np.int64(3), np.int64(5)]
+  40000 trials (40001 valid), best det = 1490232125882065106374043012743827554304000, 63.9s
+  50000 trials (50001 valid), best det = 1490232125882065106374043012743827554304000, 75.7s
+  60000 trials (60001 valid), best det = 1490232125882065106374043012743827554304000, 87.5s
+  70000 trials (70001 valid), best det = 1490232125882065106374043012743827554304000, 99.4s
+  Trial 77747: NEW BEST Gram det = 1493940080765931669857288582904572081602560, score = 0.96188715
+  Off-diag values: [np.int64(-3), np.int64(-1), np.int64(1), np.int64(5)]
+  80000 trials (80001 valid), best det = 1493940080765931669857288582904572081602560, 111.2s
+  90000 trials (90001 valid), best det = 1493940080765931669857288582904572081602560, 123.0s
+
+Gram search: 100000 valid out of 100000 trials
+Best Gram det = 1493940080765931669857288582904572081602560
+Best score bound = 0.96188715
+
+======================================================================
+Direct matrix search with diverse seeds
+======================================================================
+  5000 matrices tested, best score = 0.50764841, 16s
+  10000 matrices tested, best score = 0.51757736, 32s
+  15000 matrices tested, best score = 0.51762906, 49s
+  20000 matrices tested, best score = 0.51762906, 65s
+  25000 matrices tested, best score = 0.51762906, 82s
+  30000 matrices tested, best score = 0.51775296, 98s
