@@ -1,0 +1,95 @@
+======================================================================
+FINAL CP-SAT: Full solve with greedy warm start
+======================================================================
+Building greedy warm start...
+  Seed 0: depth 15
+  Seed 1: depth 16
+  Seed 14: depth 17
+  Best greedy depth: 17/29
+
+Building CP-SAT model...
+  841 x-vars, 10962 d-vars = 11803 total
+  378 pair constraints
+  Warm start from depth-17 greedy solution
+
+Starting solve (3500s, 8 workers)...
+
+Starting CP-SAT solver v9.15.6755
+Parameters: max_time_in_seconds: 3500 log_search_progress: true cp_model_presolve: true num_workers: 8
+
+Initial satisfaction model '': (model_fingerprint: 0x29bfb15b9c98b4ba)
+#Variables: 11'803 (11'368 primary variables)
+  - 11'803 Booleans in [0,1]
+#kBoolAnd: 22 (#enforced: 22) (#literals: 44)
+#kBoolXor: 10'962
+#kLinear1: 29
+#kLinearN: 406 (#terms: 11'774)
+
+Starting presolve at 0.00s
+The solution hint is incomplete: 841 out of 11803 non fixed variables hinted.
+  1.54e-03s  0.00e+00d  [DetectDominanceRelations] 
+  9.41e-03s  0.00e+00d  [PresolveToFixPoint] #num_loops=2 #num_dual_strengthening=1 
+  1.01e-04s  0.00e+00d  [ExtractEncodingFromLinear] 
+  1.57e-04s  0.00e+00d  [DetectDuplicateColumns] 
+  1.30e-03s  0.00e+00d  [DetectDuplicateConstraints] 
+[Symmetry] Graph for symmetry has 34'181 nodes and 55'714 arcs.
+[Symmetry] Symmetry computation done. time: 0.0270548 dtime: 0.0488526
+[Symmetry] #generators: 27, average support size: 866
+[Symmetry] 406 orbits on 11422 variables with sizes: 56,56,56,56,56,56,56,56,56,56,...
+[Symmetry] Found orbitope of size 406 x 27
+[SAT presolve] num removable Booleans: 0 / 11'774
+[SAT presolve] num trivial clauses: 0
+[SAT presolve] [0s] clauses:22 literals:44 vars:24 one_side_vars:4 simple_definition:20 singleton_clauses:0
+[SAT presolve] [4.3342e-05s] clauses:22 literals:44 vars:24 one_side_vars:4 simple_definition:20 singleton_clauses:0
+[SAT presolve] [0.00014737s] clauses:22 literals:44 vars:24 one_side_vars:4 simple_definition:20 singleton_clauses:0
+  1.30e-03s  0.00e+00d  [DetectDuplicateConstraintsWithDifferentEnforcements] 
+  2.72e-02s  8.44e-03d  [Probe] #probed=23'548 #new_binary_clauses=3'824 
+  1.00e-04s  3.62e-04d  [MaxClique] 
+  1.45e-03s  0.00e+00d  [DetectDominanceRelations] 
+  6.36e-03s  0.00e+00d  [PresolveToFixPoint] #num_loops=1 #num_dual_strengthening=1 
+  9.90e-04s  0.00e+00d  [ProcessAtMostOneAndLinear] 
+  1.29e-03s  0.00e+00d  [DetectDuplicateConstraints] 
+  1.30e-03s  0.00e+00d  [DetectDuplicateConstraintsWithDifferentEnforcements] 
+  2.04e-04s  3.53e-05d  [DetectDominatedLinearConstraints] #relevant_constraints=406 
+  6.21e-05s  0.00e+00d  [DetectDifferentVariables] 
+  2.07e-04s  2.37e-05d  [ProcessSetPPC] #relevant_constraints=428 
+  5.98e-04s  0.00e+00d  [TransformClausesToExactlyOne] #num_amos=22 
+  3.10e-05s  0.00e+00d  [DetectEncodedComplexDomains] 
+  9.73e-05s  0.00e+00d  [FindAlmostIdenticalLinearConstraints] 
+  3.33e-05s  1.53e-05d  [FindBigAtMostOneAndLinearOverlap] 
+  4.35e-04s  1.93e-03d  [FindBigVerticalLinearOverlap] 
+  6.60e-05s  5.89e-05d  [FindBigHorizontalLinearOverlap] #linears=406 
+  2.72e-05s  0.00e+00d  [MergeClauses] 
+  1.44e-03s  0.00e+00d  [DetectDominanceRelations] 
+  5.61e-03s  0.00e+00d  [PresolveToFixPoint] #num_loops=1 #num_dual_strengthening=1 
+  1.41e-05s  0.00e+00d  [MergeNoOverlap] 
+  1.18e-05s  0.00e+00d  [MergeNoOverlap2D] 
+
+Presolve summary:
+  - 0 affine relations were detected.
+  - rule 'linear1: x in domain' was applied 29 times.
+  - rule 'presolve: 29 unused variables removed.' was applied 1 time.
+  - rule 'presolve: iteration' was applied 1 time.
+
+Presolved satisfaction model '': (model_fingerprint: 0xfd4178eec62a4e8a)
+#Variables: 11'774 (11'368 primary variables)
+  - 11'774 Booleans in [0,1]
+#kBoolAnd: 22 (#enforced: 22) (#literals: 44)
+#kBoolXor: 10'962
+#kLinearN: 406 (#terms: 11'774)
+[Symmetry] Graph for symmetry has 34'152 nodes and 55'714 arcs.
+[Symmetry] Symmetry computation done. time: 0.0268355 dtime: 0.0488509
+[Symmetry] #generators: 27, average support size: 866
+[Symmetry] 406 orbits on 11422 variables with sizes: 56,56,56,56,56,56,56,56,56,56,...
+[Symmetry] Found orbitope of size 406 x 27
+
+Preloading model.
+The solution hint is incomplete: 812 out of 11774 non fixed variables hinted.
+#Model   0.14s var:11774/11774 constraints:11390/11390
+
+Starting search at 0.14s with 8 workers.
+6 full problem subsolvers: [default_lp, max_lp_sym, no_lp, probing, quick_restart, quick_restart_no_lp]
+2 first solution subsolvers: [fj, fs_random_no_lp]
+2 interleaved subsolvers: [feasibility_pump, rins/rens]
+2 helper subsolvers: [neighborhood_helper, synchronization_agent]
+
