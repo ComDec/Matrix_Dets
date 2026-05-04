@@ -94,14 +94,14 @@
   1. Different top block might work (the algebraic base is too constrained)
   2. This Gram is genuinely NOT decomposable (perfect square det is necessary but not sufficient)
   3. Need full 29-column CP-SAT solve (no pre-placed columns)
-- **FULL 29-column CP-SAT solve #1** (3600s, 8 workers, 12,615 vars): **UNKNOWN**
-- **FULL 29-column CP-SAT solve #2** (3500s, 8 workers, XOR编码+对称性+warm start): **UNKNOWN**
-  - 11,774 vars, 11,390 constraints, 406 orbits (orbitope 406×27)
-  - 深度17 warm start, 812 hints
-  - 两次独立的1小时CP-SAT都未能判定
-- **此Gram的可分解性为开放问题**
-  - 需要24h+ CP-SAT，或SAT求解器(Glucose/CaDiCaL)，或代数scaffold发现
-  - Solomon校准表明INFEASIBLE不等于不可分解
+- **CP-SAT solve #1** (3600s): UNKNOWN
+- **CP-SAT solve #2** (3500s, XOR编码+对称性): UNKNOWN
+- **CP-SAT solve #3 (REAL 24h)** (82800s=23h, 8 workers): **UNKNOWN**
+  - 11,774 vars, 11,390 constraints, orbitope 406×27
+  - **87亿分支, 39亿冲突, 2920亿传播, 890万重启**
+  - 23小时密集计算仍无法判定
+- **结论：此Gram的可分解性超出CP-SAT能力范围**
+  - 可能需要专用SAT求解器、数学证明、或全新代数方法
 
 ## Files
 - `init_program.py` — Main code (GF(27)→H28→bordered+optimization), score 0.921
